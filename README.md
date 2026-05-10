@@ -29,16 +29,16 @@
 
 ### 🧠 02. EXEC_SUMMARY // 専門性の概要
 
-> **Systemic Bottleneck Neutralization through Algorithmic Architecture.**
-> **アルゴリズム・アーキテクチャを通じたシステム的ボトルネックの無効化。**
+> **Systemic Bottleneck Neutralization through Data & Automation.**
+> **データと自動化を通じたシステム的ボトルネックの無効化。**
 
-I am a DX Researcher and Systems Architect based in Japan, specializing in the complex intersection of heavy civil construction and advanced logistics. Drawing upon 13 years of empirical project management experience overseeing massive physical workforces and heavy infrastructural deployments, I focus on neutralizing systemic bottlenecks through algorithmic coordination, IoT topologies, and Physical AI.
+I am an independent DX Researcher based in Japan, specializing in the complex intersection of heavy civil construction and advanced logistics. Drawing upon 13 years of empirical project management experience overseeing massive physical workforces and heavy infrastructural deployments, I focus on neutralizing systemic bottlenecks through data analytics, IoT sensor networks, and the exploration of Physical AI.
 
-私は日本を拠点とするDX研究者およびシステムアーキテクトであり、重土木建設と高度な物流の複雑な交差領域を専門としております。大規模な物理的労働力と重インフラ展開を監督してきた13年間の実証的なプロジェクト管理経験を基盤とし、アルゴリズムによる調整、IoTトポロジー、およびフィジカルAIを通じて、システム的なボトルネックを無効化することに注力しております。
+私は日本を拠点とする独立系DX研究者であり、重土木建設と高度な物流の複雑な交差領域を専門としております。大規模な物理的労働力と重インフラ展開を監督してきた13年間の実証的なプロジェクト管理経験を基盤とし、データ分析、IoTセンサーネットワーク、およびフィジカルAIの探求を通じて、システム的なボトルネックを無効化することに注力しております。
 
 ---
 
-### ⚙️ 03. ARCHITECTURE_STACK // コアコンピタンスと技術スタック
+### ⚙️ 03. TECH_STACK & COMPLIANCE // コアコンピタンスと技術スタック
 
 <div align="center">
   <a href="https://skillicons.dev">
