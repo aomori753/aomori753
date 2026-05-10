@@ -16,25 +16,7 @@
 
 ---
 
-### 📂 01. SYSTEM_TELEMETRY // システム活動データ
-
-<p align="center">
-  <a href="https://github.com/aomori753">
-    <img src="https://github-readme-stats.vercel.app/api?username=aomori753&show_icons=true&theme=tokyonight&hide_border=true&title_color=38bdae&icon_color=38bdae&bg_color=0D1117" height="195" alt="GitHub Stats" />
-  </a>
-  <a href="https://github.com/aomori753">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aomori753&layout=compact&theme=tokyonight&hide_border=true&title_color=38bdae&bg_color=0D1117" height="195" alt="Top Languages" />
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/aomori753">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=aomori753&theme=tokyonight&hide_border=true&background=0D1117&stroke=0000&title_color=38bdae&sideNums=38bdae&sideLabels=A9B2C3&ring=38bdae&fire=38bdae&currStreakLabel=38bdae" alt="GitHub Streak" />
-  </a>
-</p>
-
----
-
-### 🧠 02. EXEC_SUMMARY // 専門性の概要
+### 🧠 01. EXEC_SUMMARY // 専門性の概要
 
 > **Systemic Bottleneck Neutralization through Data & Automation.**
 > **データと自動化を通じたシステム的ボトルネックの無効化。**
@@ -45,7 +27,7 @@ I am an independent DX Researcher based in Japan, specializing in the complex in
 
 ---
 
-### ⚙️ 03. TECH_STACK & COMPLIANCE // コアコンピタンスと技術スタック
+### ⚙️ 02. TECH_STACK & COMPLIANCE // コアコンピタンスと技術スタック
 
 <p align="center">
   <a href="https://github.com/aomori753">
@@ -65,7 +47,7 @@ I am an independent DX Researcher based in Japan, specializing in the complex in
 
 ---
 
-### 🔗 04. DEPLOYED_FRAMEWORKS // 現在の取り組みとリポジトリ
+### 🔗 03. DEPLOYED_FRAMEWORKS // 現在の取り組みとリポジトリ
 
 * **[construction-logistics-dx-japan](https://github.com/aomori753/construction-logistics-dx-japan)**
   A rigorous, PhD-level bilingual systems engineering framework defining Japan's 2024 Problem as a systemic throughput failure, proposing API-driven logistics synchronization and automated site topologies.
