@@ -37,6 +37,7 @@ I am an independent DX Researcher based in Japan, specializing in the complex in
 <br>
 
 **Compliance & Infrastructure Standards:**
+
 ![IPA](https://img.shields.io/badge/IPA_Standards-Security_Aligned-1D2B53?style=for-the-badge&logo=shield&logoColor=38bdae) 
 ![MLIT](https://img.shields.io/badge/MLIT-i_Construction-1D2B53?style=for-the-badge&logo=japan&logoColor=38bdae) 
 ![JILS](https://img.shields.io/badge/JILS-Logistics_DX-1D2B53?style=for-the-badge&logo=truck&logoColor=38bdae)
