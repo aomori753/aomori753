@@ -32,9 +32,9 @@
 > **Systemic Bottleneck Neutralization through Data & Automation.**
 > **データと自動化を通じたシステム的ボトルネックの無効化。**
 
-I am an independent DX Researcher based in Japan, specializing in the complex intersection of heavy civil construction and advanced logistics. Drawing upon 13 years of empirical project management experience overseeing massive physical workforces and heavy infrastructural deployments, I focus on neutralizing systemic bottlenecks through data analytics, IoT sensor networks, and the exploration of Physical AI.
+I am an independent DX Researcher based in Japan, specializing in the complex intersection of heavy civil construction and advanced logistics. Drawing upon 13 years of empirical project management experience—overseeing infrastructural project budgets exceeding ¥700 Million and managing specialized workforces of 1,000+ personnel—I focus on neutralizing systemic bottlenecks through data analytics, IoT sensor networks, and Physical AI. Currently advancing my formal IT architecture knowledge through a BS in Information Technology, I bridge the gap between traditional civil engineering and modern digital supply chains.
 
-私は日本を拠点とする独立系DX研究者であり、重土木建設と高度な物流の複雑な交差領域を専門としております。大規模な物理的労働力と重インフラ展開を監督してきた13年間の実証的なプロジェクト管理経験を基盤とし、データ分析、IoTセンサーネットワーク、およびフィジカルAIの探求を通じて、システム的なボトルネックを無効化することに注力しております。
+私は日本を拠点とする独立系DX研究者であり、重土木建設と高度な物流の複雑な交差領域を専門としております。総予算7億円超のインフラプロジェクトと1,000名以上の専門スタッフを統括してきた13年間の実証的な建設マネジメント経験を基盤とし、データ分析、IoTセンサーネットワーク、およびフィジカルAIの探求を通じて、システム的なボトルネックを無効化することに注力しております。現在、情報技術学士（BSIT）プログラムを通じてITアーキテクチャの専門知識を深めており、伝統的な土木工学と現代のデジタルサプライチェーンとの架け橋となることを目指しております。
 
 ---
 
@@ -50,12 +50,20 @@ I am an independent DX Researcher based in Japan, specializing in the complex in
 **Compliance & Infrastructure Standards:**
 ![IPA](https://img.shields.io/badge/IPA_Standards-Security_Aligned-1D2B53?style=for-the-badge&logo=shield&logoColor=38bdae) ![MLIT](https://img.shields.io/badge/MLIT-i_Construction-1D2B53?style=for-the-badge&logo=japan&logoColor=38bdae) ![JILS](https://img.shields.io/badge/JILS-Logistics_DX-1D2B53?style=for-the-badge&logo=truck&logoColor=38bdae)
 
+**Certifications & Milestones:**
+* **Cloud & AI:** Google AI Essentials, AWS Machine Learning & AI Fundamentals, PMI Generative AI Overview.
+* **Security & Systems:** Google Cybersecurity Foundations, SoloLearn AI in Data Analysis.
+* **Intellectual Property:** IPOPHL Industrial Design Patent Holder (App. 3/2014/000474).
+
 ---
 
 ### 🔗 04. DEPLOYED_FRAMEWORKS // 現在の取り組みとリポジトリ
 
 * **[construction-logistics-dx-japan](https://github.com/aomori753/construction-logistics-dx-japan)**
   A rigorous, PhD-level bilingual systems engineering framework defining Japan's 2024 Problem as a systemic throughput failure, proposing API-driven logistics synchronization and automated site topologies.
+
+* **[CyberGuard-Anywhere](https://github.com/aomori753/CyberGuard-Anywhere)**
+  A personal cybersecurity architecture project demonstrating fundamental comprehension and practical application of security protocols, aligning with IPA/Google cybersecurity standards.
 
 * **[Embodied-Anticipatory-Personal-Assistant](https://github.com/aomori753/Embodied-Anticipatory-Personal-Assistant)**
   Architectural guidelines for proactive, embodied AI designed to anticipate and fulfill human needs through real-time environmental processing.
