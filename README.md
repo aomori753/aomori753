@@ -1,6 +1,7 @@
 <div align="center">
 
-# █ JERICHO ONG | ジェリコ・オング
+# █ JERICHO ONG
+# █ ジェリコ・オング
 
 **Construction & Logistics DX Independent Researcher (Japan)**<br>
 **13-Year Construction PM | Python, Data, Cybersecurity | IPA × MLIT × JILS**<br>
