@@ -112,7 +112,7 @@ I am an independent DX Researcher based in Japan, specializing in the complex in
 * **Cybersecurity Foundations:** Professional certification in security risk management.
 
 #### 💡 Intellectual Property / 知的財産
-* **Industrial Design Patent Holder:** [IPOPHL App. 3/2014/000474](https://onlineservices.ipophil.gov.ph/patgazette/IPASJournal/V17N59_ID_1st.pdf) (*Title: ILLUMINATION CACHE*).
+* **Industrial Design Patent Holder:** IPOPHL App. 3/2014/000474 (*Title: ILLUMINATION CACHE*).
     > 2014年に取得した工業デザイン特許。物理的なイノベーションへの初期からのコミットメントを証明するものです。
 
     <details>
@@ -120,7 +120,7 @@ I am an independent DX Researcher based in Japan, specializing in the complex in
     <br>
     
     <div align="center">
-      <img src="assets/patent-publication.png" alt="IPOPHL Patent Publication - Illumination Cache" width="600">
+      <img src="https://raw.githubusercontent.com/aomori753/aomori753/main/assets/patent-publication.png" alt="IPOPHL Patent Publication - Illumination Cache" width="600">
     </div>
 
     </details>
