@@ -73,13 +73,44 @@ I am an independent DX Researcher based in Japan, specializing in the complex in
 
 ### 🎯 Certifications & Milestones / 資格取得およびマイルストーン
 
-* **Academic Progression (学歴および学位取得計画):** * Enrolled in BS Information Technology (ETEEAP). 
-  * Currently developing Capstone Thesis: *A Web-Based Inventory and Ordering System for Construction Supply Businesses* (In Progress).
-* **Current Primary Objectives (現在の最優先目標):**
-  * **IPA FE:** Fundamental Information Technology Engineer Examination (Target: October 2026).
-  * **JLPT N2:** Japanese Language Proficiency Test.
-* **Cloud & Generative AI (クラウドおよび生成AI資格):** Google AI Essentials, AWS Machine Learning & AI Fundamentals, PMI Generative AI Overview.
-* **Intellectual Property (知的財産):** IPOPHL Industrial Design Patent Holder (App. 3/2014/000474).
+#### 🎓 Academic Progression / 学歴および学位取得計画
+* **BS in Information Technology (ETEEAP)**
+  > University of the East Manila — *Focusing on the transition from Civil Engineering to Systems Architecture.*
+  > 土木工学からシステムアーキテクチャへの転換に焦点を当てた情報技術学位の取得。
+* **Capstone Thesis (卒業研究論文)**
+  > *A Web-Based Inventory and Ordering System for Construction Supply Businesses*
+  > 建設資材サプライチェーンのためのウェブベース在庫・発注管理システムの開発（実務経験とITの統合）。
+
+#### 🏆 IPA National Examination Roadmap / 情報処理技術者試験取得ロードマップ
+*Professional IT credentials aligned with Japanese national engineering standards.*
+> 日本の国家規格に基づいた、ITエンジニアとしての専門性を証明する段階的な取得計画でございます。
+
+* **Level 2 & 3 (Fundamental & Applied):**
+    * ![FE](https://img.shields.io/badge/IPA-基本情報技術者試験_(FE)-1D2B53?style=flat-square) **Fundamental Information Technology Engineer**
+    * ![SG](https://img.shields.io/badge/IPA-情報セキュリティマネジメント試験_(SG)-1D2B53?style=flat-square) **Information Security Management**
+    * ![AP](https://img.shields.io/badge/IPA-応用情報技術者試験_(AP)-1D2B53?style=flat-square) **Applied Information Technology Engineer**
+* **Level 4 (Advanced Specialist):**
+    * ![SC](https://img.shields.io/badge/IPA-情報処理安全確保支援士_(SC/RISS)-1D2B53?style=flat-square) **Registered Information Security Specialist**
+    * ![SE](https://img.shields.io/badge/IPA-システムアーキテクト試験_(SE)-1D2B53?style=flat-square) **Systems Architect**
+    * ![PM](https://img.shields.io/badge/IPA-プロジェクトマネージャ試験_(PM)-1D2B53?style=flat-square) **Project Manager**
+    * ![ES](https://img.shields.io/badge/IPA-エンベデッドシステムスペシャリスト試験_(ES)-1D2B53?style=flat-square) **Embedded Systems Specialist**
+
+#### 🇯🇵 Japanese Language Proficiency / 日本語能力目標
+*Ensuring seamless technical communication within the Japanese industrial sector.*
+> 日本の産業セクターにおける円滑な技術コミュニケーションを保証するための言語能力目標でございます。
+
+* **JLPT N2 / N1:** Japanese Language Proficiency Test (Professional Fluency) / 日本語能力試験 N2およびN1の取得。
+* **BJT J2 / J1:** Business Japanese Proficiency Test / ビジネス日本語能力テスト J2およびJ1レベルの到達。
+
+#### 🌐 Cloud, AI & Security (Acquired) / 取得済みクラウド・AI・セキュリティ資格
+* **Google AI Essentials:** Specialization in practical AI applications.
+* **AWS Fundamentals:** Machine Learning and AI infrastructure basics.
+* **PMI Credentials:** Generative AI for Project Managers (Practical Application).
+* **Cybersecurity Foundations:** Professional certification in security risk management.
+
+#### 💡 Intellectual Property / 知的財産
+* **Industrial Design Patent Holder:** IPOPHL App. 3/2014/000474 (*Title: ILLUMINATION CACHE*).
+    > 2014年に取得した工業デザイン特許。物理的なイノベーションへの初期のコミットメントを証明するものです。
 
 ### 🔗 03. DEPLOYED_FRAMEWORKS // 現在の取り組みとリポジトリ
 
