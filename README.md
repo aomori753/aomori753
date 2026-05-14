@@ -21,9 +21,9 @@
 > **Systemic Bottleneck Neutralization through Data & Automation.**
 > **データと自動化を通じたシステム的ボトルネックの無効化。**
 
-I am an independent DX Researcher based in Japan, specializing in the complex intersection of heavy civil construction and advanced logistics. Drawing upon 13 years of empirical project management experience—overseeing infrastructural project budgets exceeding ¥700 Million and managing specialized workforces of 1,000+ personnel (Manila, Philippines)—I focus on neutralizing systemic bottlenecks through data analytics, IoT sensor networks, and Physical AI. Currently advancing my formal IT architecture knowledge through a BS in Information Technology, I bridge the gap between traditional civil engineering and modern digital supply chains.
+I am an independent DX Researcher based in Japan, specializing in the complex intersection of heavy civil construction and advanced logistics. Drawing upon a 4-year foundation in my BS Civil Engineering University studies (Philippines) and 13 years of actual empirical project management experience—overseeing infrastructural project budgets exceeding ¥700 Million and managing a diverse, multi-layered workforce of 1,000+ personnel (Manila)—I focus on neutralizing systemic bottlenecks through data analytics, IoT sensor networks, and Physical AI. By combining my extensive civil engineering background with my ongoing BS in Information Technology University degree, I operate with a dual-domain perspective to bridge the gap between traditional physical construction and modern digital supply chains.
 
-私は日本を拠点に活動する独立系DX研究者であり、大規模土木建設と高度物流の複雑な交差領域を専門としております。フィリピン・マニラにおいて、総予算7億円を超えるインフラプロジェクトの指揮、および1,000名規模の専門スタッフを統括した13年間にわたる実践的なプロジェクトマネジメント経験を基盤としております。この現場知見をもとに、データ分析、IoTセンサーネットワーク、およびフィジカルAIを活用し、システム上の構造的なボトルネックを無効化することに注力しております。現在は情報技術学士（BSIT）課程にてITアーキテクチャの体系的な専門知識を修得中であり、伝統的な土木工学の現場と現代のデジタルサプライチェーンを繋ぐ確固たる架け橋となるべく尽力しております。
+私は日本を拠点に活動する独立系DX研究者であり、大規模土木建設と高度物流の複雑な交差領域を専門としております。フィリピンの4年制大学における土木工学（BS）の教育基盤と、マニラにおいて総予算7億円を超えるインフラプロジェクトの指揮、および技術者、協力会社、現場作業員を含む1,000名以上の多様かつ多層的な人員を統括した13年間にわたる現場での実証的なプロジェクトマネジメント経験を有しております。この知見をもとに、データ分析、IoTセンサーネットワーク、およびフィジカルAIを活用し、システム上の構造的なボトルネックを無効化することに注力しております。この広範な土木工学の背景と、現在取得に向けて進行中である情報技術学士（BSIT）の正規大学学位を統合することで、私は「デュアルドメイン（二領域）」の視点をもって、伝統的な物理的建設現場と現代のデジタルサプライチェーンを繋ぐ確固たる架け橋として機能しております。
 
 ---
 
