@@ -132,7 +132,7 @@ I am an independent DX Researcher based in Japan, specializing in the complex in
 * **[construction-logistics-dx-japan](https://github.com/aomori753/construction-logistics-dx-japan)**
   A rigorous, PhD-level bilingual systems engineering framework defining Japan's 2024 Problem as a systemic throughput failure, proposing API-driven logistics synchronization and automated site topologies.
 
-* **[CyberGuard-Anywhere](https://github.com/aomori753/CyberGuard-Anywhere)**
+* **[CyberGuard-Anywhere]**
   A personal cybersecurity architecture project demonstrating fundamental comprehension and practical application of security protocols, aligning with IPA/Google cybersecurity standards.
 
 * **[Embodied-Anticipatory-Personal-Assistant](https://github.com/aomori753/Embodied-Anticipatory-Personal-Assistant)**
