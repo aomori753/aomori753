@@ -27,26 +27,59 @@ I am an independent DX Researcher based in Japan, specializing in the complex in
 
 ---
 
-### ⚙️ 02. TECH_STACK & COMPLIANCE // コアコンピタンスと技術スタック
+## ⚙️ 02. TECH_STACK & COMPLIANCE // コアコンピタンスと技術スタック
 
-<p align="center">
-  <a href="https://github.com/aomori753">
-    <img src="https://skillicons.dev/icons?i=python,tensorflow,linux,bash,git,github,vscode,mysql,postgres,aws,gcp,notion,md&perline=13&theme=dark" alt="Tech Stack Icons" />
-  </a>
-</p>
+<div align="left">
+
+**Systems Architecture & Documentation / システム設計および文書化基盤** > *Tools utilized to translate complex physical construction operations into algorithmic structures and maintain rigorous version control.*
+> 複雑な物理的建設運用をアルゴリズム的構造へ翻訳し、厳密なバージョン管理を実施するためのツール群でございます。
+
+![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
+![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+
 <br>
 
-**Compliance & Infrastructure Standards:**
+**Core Programming & Environment / 基盤プログラミングおよび開発環境** > *Foundational scripting and operating systems currently being mastered in alignment with the IPA Fundamental Information Technology Engineer (FE) syllabus.*
+> 現在、IPA基本情報技術者試験（FE）のシラバスに厳密に準拠し、習得を進めている基礎的なスクリプト言語およびオペレーティングシステムでございます。
 
-![IPA](https://img.shields.io/badge/IPA_Standards-Security_Aligned-1D2B53?style=for-the-badge&logo=shield&logoColor=38bdae) 
-![MLIT](https://img.shields.io/badge/MLIT-i_Construction-1D2B53?style=for-the-badge&logo=japan&logoColor=38bdae) 
-![JILS](https://img.shields.io/badge/JILS-Logistics_DX-1D2B53?style=for-the-badge&logo=truck&logoColor=38bdae)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Bash](https://img.shields.io/badge/GNU_Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-0078D4?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
-**Certifications & Milestones:**
-* **Cloud & AI:** Google AI Essentials, AWS Machine Learning & AI Fundamentals, PMI Generative AI Overview.
-* **Intellectual Property:** IPOPHL Industrial Design Patent Holder (App. 3/2014/000474).
+<br>
 
----
+**Data Fundamentals & AI / データ処理基盤および生成AI** > *Core database technologies and advanced Large Language Models (LLMs) leveraged for logistics data analytics and cognitive automation.*
+> 物流データ分析および認知的自動化のために活用している、中核的なデータベース技術および高度な大規模言語モデル（LLM）でございます。
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![ChatGPT](https://img.shields.io/badge/ChatGPT_Prompting-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
+![Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=googlebard&logoColor=white)
+
+</div>
+
+<br>
+
+### 📜 Compliance & Infrastructure Standards / コンプライアンスおよびインフラ基準
+
+![IPA](https://img.shields.io/badge/IPA_Standards-Security_Aligned-1D2B53?style=for-the-badge)
+![MLIT](https://img.shields.io/badge/MLIT-i--Construction-1D2B53?style=for-the-badge)
+![JILS](https://img.shields.io/badge/JILS-Logistics_DX-1D2B53?style=for-the-badge)
+
+<br>
+
+### 🎯 Certifications & Milestones / 資格取得およびマイルストーン
+
+* **Academic Progression (学歴および学位取得計画):** * Enrolled in BS Information Technology (ETEEAP). 
+  * Currently developing Capstone Thesis: *A Web-Based Inventory and Ordering System for Construction Supply Businesses* (In Progress).
+* **Current Primary Objectives (現在の最優先目標):**
+  * **IPA FE:** Fundamental Information Technology Engineer Examination (Target: October 2026).
+  * **JLPT N2:** Japanese Language Proficiency Test.
+* **Cloud & Generative AI (クラウドおよび生成AI資格):** Google AI Essentials, AWS Machine Learning & AI Fundamentals, PMI Generative AI Overview.
+* **Intellectual Property (知的財産):** IPOPHL Industrial Design Patent Holder (App. 3/2014/000474).
 
 ### 🔗 03. DEPLOYED_FRAMEWORKS // 現在の取り組みとリポジトリ
 
