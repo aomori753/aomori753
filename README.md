@@ -19,7 +19,7 @@
 ### 🧠 01. EXEC_SUMMARY // 専門性の概要
 
 > **Systemic Bottleneck Neutralization through Data & Automation.**
-> **データと自動化を通じたシステム的ボトルネックの無効化。**
+> **データと自動化を通じた構造的ボトルネックの解消。**
 
 I am an independent DX Researcher based in Japan, specializing in the complex intersection of heavy civil construction and advanced logistics. Drawing upon a 4-year foundation in my BS Civil Engineering University studies (Philippines) and 13 years of actual empirical project management experience—overseeing infrastructural project budgets exceeding ¥700 Million and managing a diverse, multi-layered workforce of 1,000+ personnel (Manila)—I focus on neutralizing systemic bottlenecks through data analytics, IoT sensor networks, and Physical AI. By combining my extensive civil engineering background with my ongoing BS in Information Technology University degree, I operate with a dual-domain perspective to bridge the gap between traditional physical construction and modern digital supply chains.
 
