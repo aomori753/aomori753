@@ -75,11 +75,12 @@ I am an independent DX Researcher based in Japan, specializing in the complex in
 
 #### 🎓 Academic Progression / 学歴および学位取得計画
 * **BS in Information Technology (ETEEAP)**
-  > University of the East Manila — *Focusing on the transition from Civil Engineering to Systems Architecture.*
-  > 土木工学からシステムアーキテクチャへの転換に焦点を当てた情報技術学位の取得。
+  > University of the East Manila
+  > *Leveraging a foundational academic background in Civil Engineering and 13 years of physical site management experience to formalize enterprise IT systems architecture and data engineering.*
+  > 土木工学の基礎的な学術背景と13年にわたる物理的な現場管理の経験を活用し、エンタープライズITシステムアーキテクチャとデータエンジニアリングを体系化するための情報技術学位の取得。
 * **Capstone Thesis (卒業研究論文)**
   > *A Web-Based Inventory and Ordering System for Construction Supply Businesses*
-  > 建設資材サプライチェーンのためのウェブベース在庫・発注管理システムの開発（実務経験とITの統合）。
+  > 建設資材サプライチェーンのためのウェブベース在庫・発注管理システムの開発（実務経験とIT領域の統合）。
 
 #### 🏆 IPA National Examination Roadmap / 情報処理技術者試験取得ロードマップ
 *Professional IT credentials aligned with Japanese national engineering standards.*
@@ -89,9 +90,11 @@ I am an independent DX Researcher based in Japan, specializing in the complex in
     * ![FE](https://img.shields.io/badge/IPA-基本情報技術者試験_(FE)-1D2B53?style=flat-square) **Fundamental Information Technology Engineer**
     * ![SG](https://img.shields.io/badge/IPA-情報セキュリティマネジメント試験_(SG)-1D2B53?style=flat-square) **Information Security Management**
     * ![AP](https://img.shields.io/badge/IPA-応用情報技術者試験_(AP)-1D2B53?style=flat-square) **Applied Information Technology Engineer**
+
 * **Level 4 (Advanced Specialist):**
+    * ![SA](https://img.shields.io/badge/IPA-システムアーキテクト試験_(SA)-1D2B53?style=flat-square) **Systems Architect**
+      > *The IPA Systems Architect (SA) Examination is a high-level national certification in Japan (Skill Level 4) administered by the Information-technology Promotion Agency (IPA).*
     * ![SC](https://img.shields.io/badge/IPA-情報処理安全確保支援士_(SC/RISS)-1D2B53?style=flat-square) **Registered Information Security Specialist**
-    * ![SE](https://img.shields.io/badge/IPA-システムアーキテクト試験_(SE)-1D2B53?style=flat-square) **Systems Architect**
     * ![PM](https://img.shields.io/badge/IPA-プロジェクトマネージャ試験_(PM)-1D2B53?style=flat-square) **Project Manager**
     * ![ES](https://img.shields.io/badge/IPA-エンベデッドシステムスペシャリスト試験_(ES)-1D2B53?style=flat-square) **Embedded Systems Specialist**
 
@@ -110,7 +113,7 @@ I am an independent DX Researcher based in Japan, specializing in the complex in
 
 #### 💡 Intellectual Property / 知的財産
 * **Industrial Design Patent Holder:** IPOPHL App. 3/2014/000474 (*Title: ILLUMINATION CACHE*).
-    > 2014年に取得した工業デザイン特許。物理的なイノベーションへの初期のコミットメントを証明するものです。
+    > 2014年に取得した工業デザイン特許。物理的なイノベーションへの初期からのコミットメントを証明するものです。
 
 ### 🔗 03. DEPLOYED_FRAMEWORKS // 現在の取り組みとリポジトリ
 
