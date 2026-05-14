@@ -21,9 +21,9 @@
 > **Systemic Bottleneck Neutralization through Data & Automation.**
 > **データと自動化を通じたシステム的ボトルネックの無効化。**
 
-I am an independent DX Researcher based in Japan, specializing in the complex intersection of heavy civil construction and advanced logistics. Drawing upon 13 years of empirical project management experience—overseeing infrastructural project budgets exceeding ¥700 Million and managing specialized workforces of 1,000+ personnel—I focus on neutralizing systemic bottlenecks through data analytics, IoT sensor networks, and Physical AI. Currently advancing my formal IT architecture knowledge through a BS in Information Technology, I bridge the gap between traditional civil engineering and modern digital supply chains.
+I am an independent DX Researcher based in Japan, specializing in the complex intersection of heavy civil construction and advanced logistics. Drawing upon 13 years of empirical project management experience—overseeing infrastructural project budgets exceeding ¥700 Million and managing specialized workforces of 1,000+ personnel (Manila, Philippines)—I focus on neutralizing systemic bottlenecks through data analytics, IoT sensor networks, and Physical AI. Currently advancing my formal IT architecture knowledge through a BS in Information Technology, I bridge the gap between traditional civil engineering and modern digital supply chains.
 
-私は日本を拠点とする独立系DX研究者であり、重土木建設と高度な物流の複雑な交差領域を専門としております。総予算7億円超のインフラプロジェクトと1,000名以上の専門スタッフを統括してきた13年間の実証的な建設マネジメント経験を基盤とし、データ分析、IoTセンサーネットワーク、およびフィジカルAIの探求を通じて、システム的なボトルネックを無効化することに注力しております。現在、情報技術学士（BSIT）プログラムを通じてITアーキテクチャの専門知識を深めており、伝統的な土木工学と現代のデジタルサプライチェーンとの架け橋となることを目指しております。
+私は日本を拠点に活動する独立系DX研究者であり、大規模土木建設と高度物流の複雑な交差領域を専門としております。フィリピン・マニラにおいて、総予算7億円を超えるインフラプロジェクトの指揮、および1,000名規模の専門スタッフを統括した13年間にわたる実践的なプロジェクトマネジメント経験を基盤としております。この現場知見をもとに、データ分析、IoTセンサーネットワーク、およびフィジカルAIを活用し、システム上の構造的なボトルネックを無効化することに注力しております。現在は情報技術学士（BSIT）課程にてITアーキテクチャの体系的な専門知識を修得中であり、伝統的な土木工学の現場と現代のデジタルサプライチェーンを繋ぐ確固たる架け橋となるべく尽力しております。
 
 ---
 
