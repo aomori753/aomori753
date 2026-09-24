@@ -7,14 +7,26 @@ import { fileURLToPath } from "node:url";
 // Read-only checks for this small, deliberately curated public repository.
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const allowed = new Set([
-  "README.md", "AGENTS.md", "SECURITY.md", ".gitignore", ".gitattributes",
+  "README.md", "README_REBRAND_V2.md", "AGENTS.md", "SECURITY.md", ".gitignore", ".gitattributes",
   "assets/.keep", "assets/patent-publication.png", "assets/profile-header.svg",
-  "assets/brand/header-dark.svg", "assets/brand/header-light.svg", "assets/brand/header-fallback.png",
+  "assets/brand/jo-mark.svg", "assets/brand/header-dark.svg", "assets/brand/header-light.svg", "assets/brand/header-fallback.png",
+  "assets/brand/header-mobile-dark.svg", "assets/brand/header-mobile-light.svg",
+  "assets/project-cards/construction-supply-dark.svg", "assets/project-cards/construction-supply-light.svg",
+  "assets/project-cards/sitearm-dark.svg", "assets/project-cards/sitearm-light.svg",
+  "assets/project-cards/construction-logistics-dx-dark.svg", "assets/project-cards/construction-logistics-dx-light.svg",
+  "assets/project-cards/eapa-dark.svg", "assets/project-cards/eapa-light.svg",
+  "assets/project-cards/fieldops-ai-dark.svg", "assets/project-cards/fieldops-ai-light.svg",
+  "assets/icons/php.svg", "assets/icons/git.svg", "assets/icons/typescript.svg", "assets/icons/sql.svg",
+  "assets/icons/code.svg", "assets/icons/workflow.svg", "assets/icons/terminal.svg", "assets/icons/assistant.svg",
   "assets/projects/construction-logistics-concept-dark.svg", "assets/projects/construction-logistics-concept-light.svg",
   "assets/projects/eapa-concept-dark.svg", "assets/projects/eapa-concept-light.svg",
   "assets/projects/sitearm-concept-dark.svg", "assets/projects/sitearm-concept-light.svg",
   "docs/profile-maintenance.md", "docs/profile-sync.json",
   "docs/rebrand/design.md", "docs/rebrand/verification.md",
+  "docs/rebrand/README_VERSION_COMPARISON.md", "docs/rebrand/CONTENT_MAP.md",
+  "docs/rebrand/CONTENT_REVIEW.md", "docs/rebrand/DESIGN_SYSTEM.md",
+  "docs/rebrand/ASSET_LICENSES.md", "docs/rebrand/RENDER_CHECKLIST.md",
+  "docs/rebrand/PUBLICATION_CHECKLIST.md", "REBRAND_V2_CHANGE_RECORD.txt",
   "REBRAND_CHANGE_RECORD_20260925-004105.txt", "scripts/check-rebrand.py",
   "scripts/check-profile.mjs", ".github/workflows/profile-check.yml",
 ]);
@@ -31,7 +43,7 @@ const sensitivePatterns = [
   ["access token", /\b(?:gh[pousr]_[A-Za-z0-9]{20,}|github_pat_[A-Za-z0-9_]{30,}|AKIA[A-Z0-9]{16}|sk-(?:proj-)?[A-Za-z0-9_-]{24,}|xox[baprs]-[A-Za-z0-9-]{20,})\b/],
   ["credential assignment", /["']?(?:api[_-]?key|access[_-]?token|client[_-]?secret|password)["']?\s*[:=]\s*["'][^\s"']{8,}["']/i],
   ["personal email address", /\b[A-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[A-Z0-9-]+(?:\.[A-Z0-9-]+)+\b/i],
-  ["machine-specific path", /(?:\b[A-Z]:[\\/]|file:\/\/|\/(?:Users|home)\/[^\s/]+)/i],
+  ["machine-specific path", /(?:\b[A-Z]:[\\/]|file:\/\/|(?<![\w./:-])\/(?:Users|home)\/[^\s/]+)/i],
 ];
 const problems = [];
 const normalized = (value) => value.replace(/\r\n?/g, "\n");
@@ -152,8 +164,11 @@ function checkPictures(text, file) {
     if (tag === "picture") {
       if (closing) {
         if (!picture) { fail(file, "Unbalanced picture tags."); continue; }
-        if (picture.images !== 1 || picture.media.size !== 2) {
-          fail(file, "Each picture needs dark/light sources and exactly one fallback image.");
+        const widePair = ["dark:wide", "light:wide"].every((key) => picture.media.has(key));
+        const mobilePair = ["dark:mobile", "light:mobile"].every((key) => picture.media.has(key));
+        if (picture.images !== 1 || !widePair ||
+            !(picture.media.size === 2 || (picture.media.size === 4 && mobilePair))) {
+          fail(file, "Each picture needs dark/light sources, an optional paired mobile variant, and one fallback image.");
         }
         if (picture.brand && !/\.png$/.test(picture.fallback)) {
           fail(file, "Critical header artwork needs a PNG fallback.");
@@ -174,10 +189,17 @@ function checkPictures(text, file) {
         fail(file, "Picture source has unsupported attributes.");
       }
       const media = (attrs.get("media") ?? "").replace(/\s+/g, "");
-      if (!/^\(prefers-color-scheme:(?:dark|light)\)$/.test(media) || picture.media.has(media)) {
-        fail(file, "Picture sources need distinct dark and light color-scheme queries.");
+      const terms = media.split("and");
+      const scheme = terms.map((term) => /^\(prefers-color-scheme:(dark|light)\)$/.exec(term)?.[1]).find(Boolean);
+      const mobile = terms.includes("(max-width:600px)");
+      const mediaKey = `${scheme}:${mobile ? "mobile" : "wide"}`;
+      if (!scheme || terms.length !== (mobile ? 2 : 1) || picture.media.has(mediaKey)) {
+        fail(file, "Picture queries must pair distinct dark/light themes, optionally at max-width 600px.");
       }
-      picture.media.add(media);
+      if (mobile && picture.media.has(`${scheme}:wide`)) {
+        fail(file, "Mobile artwork must precede its matching unrestricted theme source.");
+      }
+      picture.media.add(mediaKey);
       const source = attrs.get("srcset") ?? "";
       if (source.includes("assets/brand/")) picture.brand = true;
       if (!source || /[\s,?#]/.test(source) || !/\.(?:svg|png)$/.test(source)) {
@@ -246,8 +268,7 @@ function checkSvg(value, file) {
   const legacy = file === "assets/profile-header.svg";
   const permitted = new Set([
     "svg", "title", "desc", "defs", "g", "path", "rect", "circle", "ellipse",
-    "line", "polyline", "polygon", "linearGradient", "radialGradient", "stop", "clipPath",
-    ...(legacy ? ["text"] : []),
+    "line", "polyline", "polygon", "linearGradient", "radialGradient", "stop", "clipPath", "text", "tspan",
   ]);
   const text = value.replace(/<!--[\s\S]*?-->/g, "").replace(/^\s*<\?xml\s[^?]*\?>/, "");
   const stack = [];
@@ -382,9 +403,11 @@ function main() {
     if (file.endsWith(".md")) checkMarkdown(text, file);
     if (file.endsWith(".svg")) checkSvg(text, file);
   }
-  const readmeAnchors = anchors(readable.get("README.md") ?? "", "README.md");
-  for (const anchor of requiredAnchors) {
-    if (!readmeAnchors.has(anchor)) fail("README.md", `Required section anchor is missing: ${anchor}.`);
+  for (const file of ["README.md", "README_REBRAND_V2.md"]) {
+    const readmeAnchors = anchors(readable.get(file) ?? "", file);
+    for (const anchor of requiredAnchors) {
+      if (!readmeAnchors.has(anchor)) fail(file, `Required section anchor is missing: ${anchor}.`);
+    }
   }
   checkManifest(args[1]);
   if (problems.length) {

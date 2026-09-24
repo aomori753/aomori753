@@ -2,6 +2,7 @@
 /.private/
 /.preview/
 /.rebrand-local/
+/docs/rebrand/screenshots/
 
 # Credentials and personal configuration
 .env

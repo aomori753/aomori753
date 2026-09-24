@@ -1,0 +1,176 @@
+GITHUB PROFILE REBRAND V2 — APPROVED RELEASE
+Review date: 25 September 2026 (Japan)
+Repository: aomori753/aomori753
+Local branch: rebrand/profile-v2-20260925
+
+PUBLICATION STATE
+The original local candidate was delivered without staging, commit or
+publication. The owner subsequently accepted it and explicitly requested
+commit/push to aomori753/aomori753 on 25 September 2026. This supersedes the
+local-only hold for the reviewed release to default main.
+README.md now contains the accepted README_REBRAND_V2.md unchanged;
+the candidate and V1 recovery snapshot remain retained. No account-setting,
+pin, visibility, deployment or other-repository change is included.
+Actual remote and CI results must be verified after publication.
+
+BASELINES AND RECOVERY
+Published V1/content baseline:
+19e9febd78f4d6e7fc892256c9a4e75a50ca37ba
+Baseline README SHA-256:
+d83e35298ee25411aff99454876cd617d52ec6bca7d3b2454c9512132f7e14d2
+Historical visual baseline:
+535c997a0543de05601ccb31b7cf28e8bc15304c (10 May 2026)
+Secondary technology-grouping reference:
+2668321ce0c80a0ca84f12c56e7364d7c3ac392d (6 June 2026)
+All 23 README-changing history entries inspected. Six representative
+versions exported to ignored .rebrand-local/history/.
+All 24 original tracked files copied before edits to ignored
+.rebrand-local/v2-20260925-013852/baseline/.
+No frozen V1 copy-check baseline was rewritten.
+
+CONTENT MERGE
+Recovered the compact identity, visual technology recognition and clear
+section rhythm of the historical profile. Did not restore remote
+widgets, statistics, compliance badges or unsupported historical claims.
+Retained current bilingual experience, profile/contributions, PHP-first
+tool context, capstone, research, education, learning/exam distinctions,
+industrial-design publication qualification, ethics, roadmap and links.
+Updated exactly four superseded SITEARM English/Japanese paragraphs from
+public numerical-research evidence; the exact before/after text and
+immutable source links are in docs/rebrand/CONTENT_MAP.md.
+FieldOps AI is PLANNED; Agentic AI is BUILDING a practice. FDE-style is
+an intended delivery approach, not employment or completed client work.
+
+PUBLIC FILES CREATED (30)
+README_REBRAND_V2.md
+REBRAND_V2_CHANGE_RECORD.txt
+assets/brand/jo-mark.svg
+assets/brand/header-mobile-dark.svg
+assets/brand/header-mobile-light.svg
+assets/project-cards/construction-supply-dark.svg
+assets/project-cards/construction-supply-light.svg
+assets/project-cards/sitearm-dark.svg
+assets/project-cards/sitearm-light.svg
+assets/project-cards/construction-logistics-dx-dark.svg
+assets/project-cards/construction-logistics-dx-light.svg
+assets/project-cards/eapa-dark.svg
+assets/project-cards/eapa-light.svg
+assets/project-cards/fieldops-ai-dark.svg
+assets/project-cards/fieldops-ai-light.svg
+assets/icons/php.svg
+assets/icons/git.svg
+assets/icons/typescript.svg
+assets/icons/sql.svg
+assets/icons/code.svg
+assets/icons/workflow.svg
+assets/icons/terminal.svg
+assets/icons/assistant.svg
+docs/rebrand/README_VERSION_COMPARISON.md
+docs/rebrand/CONTENT_MAP.md
+docs/rebrand/CONTENT_REVIEW.md
+docs/rebrand/DESIGN_SYSTEM.md
+docs/rebrand/ASSET_LICENSES.md
+docs/rebrand/RENDER_CHECKLIST.md
+docs/rebrand/PUBLICATION_CHECKLIST.md
+
+EXISTING PUBLIC FILES MODIFIED (8, including approved promotion)
+README.md
+.gitignore
+AGENTS.md
+assets/brand/header-dark.svg
+assets/brand/header-light.svg
+assets/brand/header-fallback.png
+docs/profile-maintenance.md
+scripts/check-profile.mjs
+
+ASSETS
+23 V2 SVGs in total: five brand assets, ten project-card variants, eight
+icons. Standard headers are 1200x360, mobile headers 600x400, project
+cards 1200x400 and icon tiles 48x48. Header PNG is 1200x360.
+Three third-party marks only: PHP (Colin Viebrock, CC BY-SA 4.0),
+Git (Jason Long, CC BY 3.0), TypeScript (Simple Icons source and official
+branding restrictions). Sources pinned and inspected; credits recorded.
+Five category symbols and all header/card artwork are original vectors.
+No bundled fonts, official AI-vendor logos, external images or trackers.
+The original publication image and legacy project assets are preserved.
+
+SOURCES AND DESTINATIONS CHECKED
+Unauthenticated public owner repository list: four public repositories.
+SITEARM: public README, manifest and tree at
+8e06bcdc91ddf584f92625b3caeafdd91a91c3a1.
+Construction & Logistics DX: public README at
+3974b0ffa7253e989a7eeaf2721eef3882b31e89.
+EAPA: public README at 8219e70a72870a32703d385e097a7a3e103f9b20.
+No independently verified public capstone, Sentrivela, Super Bear or
+FieldOps repository/demo; no invented URLs or privacy-status inference.
+Portfolio apex and www requests failed DNS during review; no live link
+added. Established GitHub/LinkedIn contact destinations retained;
+LinkedIn automated inspection was limited (HTTP 999), manual check due.
+Simple Icons pinned vectors/license/disclaimer/metadata plus PHP, Git
+and TypeScript official attribution/branding pages inspected.
+Exact source URLs and scope are in CONTENT_REVIEW.md and ASSET_LICENSES.md.
+
+CHECKS AND LOCAL EVIDENCE
+Actual PowerShell Markdig HTML rendered in installed headless Edge153.
+18 before/after renders: 390/768/900px columns, light/dark/dim themes.
+No page overflow collapsed or expanded; no broken image loads.
+All 23 SVGs rendered; display-text bounds stay within their viewBox.
+All 28 disclosures opened with keyboard Enter; representative Space
+toggle passed; no nested disclosures or exposed markup. Anchors passed.
+All ten project cards inspected visually in both themes; mobile status
+is also readable native text, not only small lettering inside the art.
+Native 200% browser zoom verified separately using an isolated profile:
+same outer width947, 100% innerWidth923/DPR1, 200% innerWidth461/DPR2;
+no CSS/device-metrics/page-scale substitution. Three themes passed with
+all disclosures expanded; Japanese glyphs inspected. Twelve native-zoom
+screenshots retained. Reflow approximation is reported separately.
+Content audit: 181 baseline blocks = 162 preserved text matches + four
+declared evidence updates +15 presentation/navigation changes; zero
+unexpected missing blocks or missing original external destinations.
+Independent professional-status review passes with the same accounting.
+At candidate handoff the root README matched the immutable V1 backup.
+For the approved release, root README instead matches the accepted V2
+candidate byte-for-byte; the immutable V1 backup remains unchanged.
+Node syntax and public-file checks pass for all 54 approved files.
+Tracked-diff and all 30 new-file whitespace checks pass. Nine content
+audit fixtures pass (one control; eight correctly rejected mutations).
+Full candidate-versus-V1 and all-file diffs are retained in the ignored
+review directory. Details are in docs/rebrand/RENDER_CHECKLIST.md.
+Reports/previews are under .rebrand-local/v2-20260925-013852/;
+screenshots are under docs/rebrand/screenshots/v2/ and ignored by Git.
+No local preview, source audit or zoom result proves live GitHub layout.
+
+UNRESOLVED / OWNER DECISIONS
+Visual candidate and four SITEARM updates accepted for this release.
+Confirm any public Sentrivela/Super Bear/capstone evidence before adding
+cards, stacks or links. Do not expose private repositories to fill gaps.
+Verify the live portfolio and LinkedIn destinations manually.
+Authorize a separate portfolio narrative-sync review if desired; this
+task did not read/change the sibling portfolio or refresh fingerprints.
+Live GitHub browser/theme/mobile/zoom verification remains distinct from
+the local checks. No current credentials or device validation inferred.
+
+APPROVED PUBLICATION STEPS
+Follow docs/rebrand/PUBLICATION_CHECKLIST.md under the explicit acceptance
+and publication authority. Root README is promoted, the candidate retained;
+regenerate actual preview and rerun all checks before committing.
+Verify remote/branch/current base and repository-local noreply identity.
+Stage only the 38 reviewed files listed above. Review full staged diff
+and exclusions; run checks.
+Commit with a descriptive message. Push only the explicitly approved
+destination via normal non-force push. Complete live GitHub/CI checks.
+The approved profile publication targets verified default main using a
+normal fast-forward update, not a force-push or unrelated branch merge.
+
+ROLLBACK
+Keep candidate/diff before any rollback. Inspect current changes and
+restore only owner-selected original files from the exact local baseline
+through reviewed file operations. Keep unrelated edits. Do not reset,
+clean, rewrite history or recursively delete work. New candidate files
+may remain on the local branch pending instruction.
+For a future public release, a reviewed revert commit and separately
+authorized normal push are the recovery route; never force-push.
+Git exclusion is not encryption, and reverting is not secret removal.
+
+GitHub remote at candidate handoff: NOT UPDATED.
+Subsequent release: owner-authorized; confirm actual remote/CI result.

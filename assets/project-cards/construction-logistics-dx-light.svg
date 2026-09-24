@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="construction-logistics-dx-light-title construction-logistics-dx-light-desc">
+  <title id="construction-logistics-dx-light-title">Construction and Logistics DX Japan — independent research</title>
+  <desc id="construction-logistics-dx-light-desc">Construction and logistics digital transformation. Independent research. An original concept diagram links a supply warehouse, delivery vehicle and construction frame; not a validated architecture.</desc>
+  <defs>
+    <linearGradient id="construction-logistics-dx-light-surface" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f3f6fc"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="1198" height="398" rx="16" fill="url(#construction-logistics-dx-light-surface)" stroke="#d1dbee" stroke-width="2"/>
+  <path d="M24 47V353" stroke="#405bc2" stroke-width="4"/>
+  <path d="M797 61V339" stroke="#d1dbee" stroke-width="2"/>
+  <g fill="none" stroke="#bdcce1" stroke-width="1" opacity="0.32">
+    <path d="M837 108H1150M837 194H1150M837 280H1150M883 62V300M991 62V300M1099 62V300"/>
+  </g>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif">
+    <text x="66" y="69" fill="#405bc2" font-size="27" font-weight="600" letter-spacing="2.5">CONSTRUCTION &amp; LOGISTICS DX</text>
+    <text x="64" y="149" fill="#16243b" font-size="62" font-weight="700" letter-spacing="-1.5">Construction &amp;</text>
+    <text x="64" y="222" fill="#16243b" font-size="62" font-weight="700" letter-spacing="-1.5">Logistics DX Japan</text>
+    <circle cx="74" cy="330" r="6" fill="#405bc2"/>
+    <text x="97" y="341" fill="#566781" font-size="34" font-weight="500">Independent research</text>
+    <text x="994" y="341" fill="#566781" font-size="26" font-weight="500" letter-spacing="2.5" text-anchor="middle">CONCEPT</text>
+  </g>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M862 215H922L970 270H1099V208" stroke="#405bc2" stroke-width="3"/>
+    <path d="M1091 221L1099 208L1107 221" stroke="#405bc2" stroke-width="3"/>
+    <path d="M868 115L911 94L953 115L910 137Z" fill="#f9fbff" stroke="#516882" stroke-width="3"/>
+    <path d="M868 115V168L910 189V137ZM910 137L953 115V168L910 189" fill="#e6ecf7" stroke="#516882" stroke-width="3"/>
+    <path d="M919 146L941 135V174L919 185Z" fill="#ffffff" stroke="#405bc2" stroke-width="2.5"/>
+    <path d="M924 153L936 147M924 163L936 157" stroke="#bdcce1" stroke-width="2"/>
+    <path d="M935 218L979 196L1011 212L967 234Z" fill="#f9fbff" stroke="#516882" stroke-width="3"/>
+    <path d="M935 218V250L967 266V234ZM967 234L1011 212V244L967 266" fill="#e6ecf7" stroke="#516882" stroke-width="3"/>
+    <path d="M987 256L1018 240L1039 250V271L1020 280L1002 268" fill="#e6ecf7" stroke="#516882" stroke-width="3"/>
+    <path d="M1006 250L1018 244L1032 251V260L1018 267L1006 261Z" fill="#ffffff" stroke="#405bc2" stroke-width="2.5"/>
+    <ellipse cx="976" cy="266" rx="6" ry="8" fill="#ffffff" stroke="#516882" stroke-width="3"/>
+    <ellipse cx="1024" cy="278" rx="6" ry="8" fill="#ffffff" stroke="#516882" stroke-width="3"/>
+    <path d="M1050 173L1095 151L1140 173L1095 196Z" fill="#d9e3f2" stroke="#516882" stroke-width="2.5"/>
+    <path d="M1056 170V94L1095 74L1134 94V170M1095 112V190M1095 74V151" stroke="#516882" stroke-width="3.5"/>
+    <path d="M1056 94L1095 113L1134 94M1056 131L1095 150L1134 131M1056 170L1095 189L1134 170" stroke="#405bc2" stroke-width="3"/>
+    <path d="M951 96H1021L1056 113" stroke="#405bc2" stroke-width="2.5" stroke-dasharray="3 7"/>
+  </g>
+</svg>

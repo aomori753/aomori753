@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="construction-supply-dark-title construction-supply-dark-desc">
+  <title id="construction-supply-dark-title">Construction Supply Inventory and Ordering — academic capstone</title>
+  <desc id="construction-supply-dark-desc">Academic capstone. Ongoing academic work. An original conceptual illustration of construction materials and structured inventory records; not a product screenshot.</desc>
+  <defs>
+    <linearGradient id="construction-supply-dark-surface" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111a2a"/>
+      <stop offset="1" stop-color="#090d16"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="1198" height="398" rx="16" fill="url(#construction-supply-dark-surface)" stroke="#29364c" stroke-width="2"/>
+  <path d="M24 47V353" stroke="#93a9ff" stroke-width="4"/>
+  <path d="M797 61V339" stroke="#29364c" stroke-width="2"/>
+  <g fill="none" stroke="#364761" stroke-width="1" opacity="0.32">
+    <path d="M837 108H1150M837 194H1150M837 280H1150M883 62V300M991 62V300M1099 62V300"/>
+  </g>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif">
+    <text x="66" y="69" fill="#93a9ff" font-size="27" font-weight="600" letter-spacing="2.5">ACADEMIC CAPSTONE</text>
+    <text x="64" y="149" fill="#f0f2f7" font-size="62" font-weight="700" letter-spacing="-1.5">Construction Supply</text>
+    <text x="64" y="222" fill="#f0f2f7" font-size="62" font-weight="700" letter-spacing="-1.5">Inventory &amp; Ordering</text>
+    <circle cx="74" cy="330" r="6" fill="#93a9ff"/>
+    <text x="97" y="341" fill="#a1abbc" font-size="34" font-weight="500">Ongoing academic work</text>
+    <text x="994" y="341" fill="#a1abbc" font-size="26" font-weight="500" letter-spacing="2.5" text-anchor="middle">CONCEPT</text>
+  </g>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M849 240L945 192L1043 241L947 289Z" fill="#142034" stroke="#91a5c3" stroke-width="3"/>
+    <path d="M856 136L943 92L1029 136L942 180Z" fill="#2b3d59" stroke="#91a5c3" stroke-width="3.5"/>
+    <path d="M856 136V237L942 280V180ZM942 180L1029 136V237L942 280" fill="#1d2a40" stroke="#91a5c3" stroke-width="3.5"/>
+    <path d="M872 173L927 200M872 201L927 228M959 195L1013 168M959 223L1013 196M959 251L1013 224" stroke="#93a9ff" stroke-width="3"/>
+    <path d="M879 128L943 96L1006 128L942 160Z" fill="#101725" stroke="#91a5c3" stroke-width="2.5"/>
+    <path d="M910 112L974 144M925 105L989 137" stroke="#364761" stroke-width="2.5"/>
+    <path d="M1030 196L1095 163L1127 179V263L1062 296L1030 280Z" fill="#101725" stroke="#91a5c3" stroke-width="3.5"/>
+    <path d="M1030 196L1062 212L1127 179M1062 212V296" stroke="#91a5c3" stroke-width="3"/>
+    <path d="M1075 225L1113 206M1075 241L1113 222M1075 257L1100 245" stroke="#93a9ff" stroke-width="3"/>
+    <path d="M1042 214L1050 218V229L1042 225" stroke="#364761" stroke-width="2.5"/>
+  </g>
+</svg>

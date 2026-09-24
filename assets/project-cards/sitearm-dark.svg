@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="sitearm-dark-title sitearm-dark-desc">
+  <title id="sitearm-dark-title">SITEARM — concept stage</title>
+  <desc id="sitearm-dark-desc">Wearable assistance research. Concept stage. An original schematic of a human upper limb with proposed support interfaces, without validated dimensions or performance claims.</desc>
+  <defs>
+    <linearGradient id="sitearm-dark-surface" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111a2a"/>
+      <stop offset="1" stop-color="#090d16"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="1198" height="398" rx="16" fill="url(#sitearm-dark-surface)" stroke="#29364c" stroke-width="2"/>
+  <path d="M24 47V353" stroke="#93a9ff" stroke-width="4"/>
+  <path d="M797 61V339" stroke="#29364c" stroke-width="2"/>
+  <g fill="none" stroke="#364761" stroke-width="1" opacity="0.32">
+    <path d="M837 108H1150M837 194H1150M837 280H1150M883 62V300M991 62V300M1099 62V300"/>
+  </g>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif">
+    <text x="66" y="69" fill="#93a9ff" font-size="27" font-weight="600" letter-spacing="2.5">WEARABLE ASSISTANCE RESEARCH</text>
+    <text x="64" y="173" fill="#f0f2f7" font-size="86" font-weight="700" letter-spacing="-1.5">SITEARM</text>
+    <text x="66" y="224" fill="#a1abbc" font-size="34" font-weight="400">Wearable robotic assistance</text>
+    <circle cx="74" cy="330" r="6" fill="#93a9ff"/>
+    <text x="97" y="341" fill="#a1abbc" font-size="34" font-weight="500">Concept stage</text>
+    <text x="994" y="341" fill="#a1abbc" font-size="26" font-weight="500" letter-spacing="2.5" text-anchor="middle">CONCEPT</text>
+  </g>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(680 69) scale(0.56)">
+      <path d="M328 332C333 287 333 260 344 222C351 197 368 178 397 167L444 160C472 171 489 190 512 214L574 271C583 279 594 282 606 280L755 257L777 242L794 244L805 258L794 275L768 281L609 308C584 312 565 305 548 290L473 228L478 345" fill="#142034" stroke="#91a5c3" stroke-width="6"/>
+      <path d="M402 167V145C376 138 366 118 370 92C373 66 391 50 416 50C445 50 460 69 460 95V111L471 126L459 132V145H443V160" fill="#1d2a40" stroke="#91a5c3" stroke-width="6"/>
+      <path d="M386 195C396 240 398 285 391 345" stroke="#364761" stroke-width="5"/>
+      <path d="M343 221L365 206L386 218L378 295L350 309L333 293Z" fill="#1d2a40" stroke="#93a9ff" stroke-width="5"/>
+      <path d="M363 206L412 175L453 170L469 191L439 202L407 201L379 241" fill="#2b3d59" stroke="#93a9ff" stroke-width="5"/>
+      <path d="M442 183L574 292L597 302L757 273L752 256L602 282L587 279L454 167Z" fill="#2b3d59" stroke="#93a9ff" stroke-width="6"/>
+      <circle cx="446" cy="183" r="19" fill="#101725" stroke="#93a9ff" stroke-width="6"/>
+      <circle cx="446" cy="183" r="6" fill="#4668e7" stroke="none"/>
+      <circle cx="589" cy="291" r="18" fill="#101725" stroke="#93a9ff" stroke-width="6"/>
+      <circle cx="589" cy="291" r="6" fill="#4668e7" stroke="none"/>
+      <path d="M492 210L515 190L550 225L526 244Z" fill="#1d2a40" stroke="#91a5c3" stroke-width="5"/>
+      <path d="M686 259L691 297L721 292L716 254Z" fill="#1d2a40" stroke="#91a5c3" stroke-width="5"/>
+      <path d="M694 258L700 294M708 256L714 292" stroke="#93a9ff" stroke-width="5"/>
+      <path d="M305 345H501" stroke="#364761" stroke-width="4"/>
+    </g>
+  </g>
+</svg>
