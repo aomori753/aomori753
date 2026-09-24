@@ -1,5 +1,38 @@
 # Render and integrity checklist — Rebrand V2
 
+## Main Concept and Sentrivela release approval
+
+On 25 September 2026 the owner explicitly approved commit/push after the local concept and rename reviews below. The accepted candidate, including the name-only Sentrivela change, is retained and copied byte-for-byte into the root README. SHA-256: `af14b9d0ea501ee0f2d24e148ebea4de6f699e5939593ae20006acb411b828d1`. No further professional-copy edits are part of promotion. Candidate-only/no-publication statements below record the earlier review stages; the new release uses fresh approval. Private notes, snapshots and screenshots remain excluded. Public-file/privacy and staged-diff checks are rerun for release; live remote/CI results must be checked separately.
+
+## Main Concept V2 continuation — current local results
+
+Scope: the accepted V2 was continued from `6a0ddd15a98fdaee31f55f649ac6d34aaa7fbbef`; it was not restarted. The root README text remains unchanged, while [the candidate](../../README_REBRAND_V2.md) and shared artwork contain the local continuation. No current-concept commit, push, merge, deployment or account update occurred. The sections below this continuation record describe the earlier V2 review/release.
+
+| Current check | Result |
+| --- | --- |
+| Actual Markdown render | Installed PowerShell Markdig and isolated Edge 153; no remote draft upload |
+| Before/after matrix | 18 views: accepted/current × 390/768/900px actual columns × light/dark/dim |
+| Page overflow and images | Zero overflow, including expanded details; zero broken images |
+| SVGs | All 23 rendered; zero out-of-viewBox text bounds; all six changed SVGs independently viewed |
+| Header and FieldOps | Four theme/size headers and both FieldOps cards visually pass; status and CONCEPT distinct |
+| Native interactions | All 32 disclosures opened by keyboard; representative Space close passed; no nesting or exposed markup; all anchor destinations found |
+| Native 200% zoom | Genuine browser-engine zoom passed in light/dark/dim, collapsed and expanded; no CSS zoom/device-scale substitute; zero overflow or broken images |
+| Languages | English/Japanese native copy retained; Japanese identity/status and expanded text render in the installed browser |
+| Content accounting | 252 accepted-V2 blocks: 230 preserved exact-text matches and 22 explicitly reviewed deltas; zero unexpected omissions; all original occurrence-counted link label/target pairs retained |
+| Delta classification | Six owner-authorized FieldOps status/description or architecture-direction changes; 16 brand, navigation, heading and category-presentation changes |
+| Public-file checks | 56 exact approved paths; safe markup/assets and privacy signatures pass; candidate-only undated-direction and FieldOps scope tests pass |
+| Scope checks | Published root README, earlier frozen baselines and portfolio fingerprints retained; no staging or new commit; local evidence excluded |
+
+Native zoom retained the same outer width (947px); the 100% control measured inner width 923px / device-pixel ratio 1, and 200% measured 461px / ratio 2. CSS zoom and visual-viewport scale remained 1. This is local artifact rendering, not live GitHub UI verification.
+
+The 22 approved changes are individually enumerated against a checksum-locked accepted V2 snapshot. They are not a blanket exemption for professional rewrites. Independent content review found no loss of stable English/Japanese claims or qualifications. The 32 focused profile-guard regression cases cover candidate semantics while preserving the published root README's earlier wording. Nine content-audit fixtures also pass: a positive control and eight correctly rejected mutations of degree status, experience, Japanese visibility, examination preparation, SITEARM limitations, FieldOps scope and contact links. Tracked and new-file whitespace checks pass.
+
+Current local evidence is under `.rebrand-local/main-concept-v2-20260925/`: initial status/branch/HEAD/diff, the complete 54-file snapshot, `content-report.json`, reviewed deltas, renderer reports, and complete diff. Screenshots are ignored under `docs/rebrand/screenshots/main-concept-v2/`. The native-zoom report and screenshots are separate from the reflow approximation.
+
+The supplied `main-concept.png` reference was absent and was not visually assessed. Written concept implementation and local rendering are complete; reference-image matching and live GitHub rendering are not claimed. Existing historical publication/evidence dates remain, but no dated future career roadmap is present in the current candidate. A later remote release requires new owner approval.
+
+## Earlier accepted V2 review
+
 Review date: 25 September 2026. Candidate: [README_REBRAND_V2.md](../../README_REBRAND_V2.md). **Local rendering only; actual GitHub V2 rendering has not been verified.**
 
 ## Method and retained evidence

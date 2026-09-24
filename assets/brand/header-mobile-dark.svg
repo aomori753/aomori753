@@ -1,16 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="title desc">
-<title id="title">Jericho Ong — IT and Digital Systems (dark, mobile)</title>
-<desc id="desc">A typographic Jericho Ong header with the jo. mark. From physical infrastructure to digital systems. Construction DX, Logistics DX, software, data and AI. The README supplies the native-text identity and truthful capability context.</desc>
-<rect x="1" y="1" width="598" height="398" rx="16" fill="#090d16" stroke="#283954" stroke-width="2"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="460" viewBox="0 0 600 460" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="header-mobile-dark-title header-mobile-dark-desc">
+<title id="header-mobile-dark-title">Jericho Ong — IT and Digital Systems</title>
+<desc id="header-mobile-dark-desc">From physical infrastructure to secure intelligent systems. Construction DX, Logistics DX, Applied AI, cybersecurity and Physical AI. Original conceptual geometry connects physical operations, digital systems, security and human review. Native README text distinguishes engineering foundations, active development and research horizons.</desc>
+<rect x="1" y="1" width="598" height="458" rx="16" fill="#090d16" stroke="#283954" stroke-width="2"/>
 <path d="M36 160h46" stroke="#93a9ff" stroke-width="4"/>
-
 <g transform="translate(478 30) scale(1.4)"><path d="M24 16v26c0 7-4 10-11 10v-7c3 0 4-1 4-4V16z" fill="#f4f6fc"/><circle cx="42" cy="34" r="12" fill="none" stroke="#93a9ff" stroke-width="7"/><circle cx="23" cy="9" r="4" fill="#93a9ff"/></g>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+  <path d="M101 415H234M291 415H407M451 415H521" stroke="#283954" stroke-width="2"/>
+  <path d="M220 410L234 415L220 420M393 410L407 415L393 420M507 410L521 415L507 420" stroke="#93a9ff" stroke-width="2"/>
+  <path d="M52 404L74 393L96 404L74 415Z" fill="#17253b" stroke="#8fa4c4" stroke-width="2"/>
+  <path d="M52 404V425L74 436V415ZM74 415L96 404V425L74 436" fill="#090d16" stroke="#8fa4c4" stroke-width="2"/>
+  <path d="M82 417L91 412V426L82 431Z" stroke="#93a9ff" stroke-width="1.5"/>
+  <path d="M241 416L264 404L287 416L264 428Z" fill="#090d16" stroke="#8fa4c4" stroke-width="2"/>
+  <path d="M241 405L264 393L287 405L264 417Z" fill="#17253b" stroke="#93a9ff" stroke-width="2"/>
+  <path d="M256 405L264 401L272 405L264 409Z" fill="#4668e7" stroke="none"/>
+  <path d="M413 398L430 391L447 398V413C447 423 440 430 430 435C420 430 413 423 413 413Z" fill="#090d16" stroke="#93a9ff" stroke-width="2"/>
+  <path d="M425 411V408A5 5 0 0 1 435 408V411M422 411H438V422H422Z" stroke="#8fa4c4" stroke-width="1.75"/>
+  <circle cx="540" cy="403" r="8" fill="#17253b" stroke="#8fa4c4" stroke-width="2"/>
+  <path d="M525 433V423C525 417 531 411 534 411M546 411C552 413 555 418 555 423V433M525 433H555" stroke="#8fa4c4" stroke-width="2"/>
+</g>
 <g font-family="'Segoe UI',Arial,Helvetica,sans-serif" fill="#f4f6fc">
 <text x="36" y="51" font-size="23" font-weight="600" letter-spacing="2" fill="#93a9ff">IT &amp; DIGITAL SYSTEMS</text>
 <text x="32" y="131" font-size="57" font-weight="700" letter-spacing="-1">JERICHO ONG</text>
 <text x="36" y="205" font-size="30" font-weight="500">FROM PHYSICAL INFRASTRUCTURE</text>
-<text x="36" y="245" font-size="30" font-weight="500">TO DIGITAL SYSTEMS</text>
+<text x="36" y="245" font-size="30" font-weight="500">TO SECURE INTELLIGENT SYSTEMS</text>
 <text x="36" y="322" font-size="22" font-weight="500" fill="#acb8ce">CONSTRUCTION DX • LOGISTICS DX</text>
-<text x="36" y="358" font-size="22" font-weight="500" fill="#acb8ce">SOFTWARE • DATA • AI</text>
+<text x="36" y="358" font-size="22" font-weight="500" fill="#acb8ce">APPLIED AI • CYBERSECURITY • PHYSICAL AI</text>
 </g>
 </svg>

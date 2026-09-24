@@ -26,6 +26,7 @@ const allowed = new Set([
   "docs/rebrand/README_VERSION_COMPARISON.md", "docs/rebrand/CONTENT_MAP.md",
   "docs/rebrand/CONTENT_REVIEW.md", "docs/rebrand/DESIGN_SYSTEM.md",
   "docs/rebrand/ASSET_LICENSES.md", "docs/rebrand/RENDER_CHECKLIST.md",
+  "docs/rebrand/MAIN_CONCEPT.md", "docs/rebrand/PROFILE_SETTINGS_PROPOSED.md",
   "docs/rebrand/PUBLICATION_CHECKLIST.md", "REBRAND_V2_CHANGE_RECORD.txt",
   "REBRAND_CHANGE_RECORD_20260925-004105.txt", "scripts/check-rebrand.py",
   "scripts/check-profile.mjs", ".github/workflows/profile-check.yml",
@@ -258,6 +259,43 @@ function checkMarkdown(value, file) {
   }
 }
 
+function checkMainConcept(value, file) {
+  // The published root may retain its earlier wording while this candidate is reviewed.
+  if (file !== "README_REBRAND_V2.md") return;
+  const text = markupOnly(value);
+  const futureYear = /\b20(?:2[6-9]|[3-9]\d)\b/;
+  const headings = [...text.matchAll(/^ {0,3}#{1,6}\s+(.+)$/gm)].map((match) => match[1]);
+  headings.push(...[...text.matchAll(/<h[1-6]\b[^>]*>([\s\S]*?)<\/h[1-6]>/gi)].map((match) => match[1]));
+  if (headings.some((heading) => futureYear.test(heading.replace(/<[^>]*>/g, "")))) {
+    fail(file, "Candidate professional-direction headings must be undated.");
+  }
+  const visible = text.replace(/<[^>]*>/g, " ").replace(/[*_`]/g, "");
+  const timelineRows = text.replace(/<[^>]*>/g, " ").replace(/\*\*|__|`/g, "");
+  if (/\b20(?:2[6-9]|[3-9]\d)\s*(?:[-–—→]|to|through|年?\s*[〜～])\s*20\d{2}\b/i.test(visible)
+      || /^\s*(?:[-+*]\s+|\|\s*)20(?:2[6-9]|[3-9]\d)\b/m.test(timelineRows)) {
+    fail(file, "Candidate must use undated professional layers, not future year ranges or dated timeline rows.");
+  }
+
+  const native = markupOnly(value, true);
+  const sections = [...native.matchAll(/^ {0,3}(#{1,6})\s+(.+)$/gm)];
+  const index = sections.findIndex((section) => /\bfieldops\s+ai\b/i.test(section[2]));
+  if (index < 0) return fail(file, "Candidate needs a native FieldOps AI section.");
+  const heading = sections[index];
+  const next = sections.slice(index + 1).find((section) => section[1].length <= heading[1].length);
+  const fieldops = native.slice(heading.index + heading[0].length, next?.index ?? native.length)
+    .replace(/<[^>]*>/g, " ").replace(/&amp;/g, "&").replace(/[*_]/g, "");
+  if (!/\bACTIVE DEVELOPMENT\s*[—–:·|-]?\s*Architecture\s*&\s*Workflow Design\b/i.test(fieldops)) {
+    fail(file, "FieldOps project status must be ACTIVE DEVELOPMENT — Architecture & Workflow Design.");
+  }
+  if (!/(?:\b(?:architecture|visual|illustration|diagram)\b[^.\n]{0,100}\bCONCEPT\b|\bCONCEPT\b[^.\n]{0,100}\b(?:architecture|visual|illustration|diagram)\b)/i.test(fieldops)) {
+    fail(file, "FieldOps architecture visual must retain a separate native CONCEPT label.");
+  }
+  if (/\bFieldOps\s+AI\s+(?:is|remains)\s+(?:still\s+)?PLANNED\b|\bPLANNED\s*[—–:-]\s*FieldOps\s+AI(?=\s*(?:[.·\n]|$))/i.test(visible)
+      || /^\s*project(?:\s+status)?\s*[:—–-]\s*PLANNED\b/im.test(fieldops)) {
+    fail(file, "Candidate retains a superseded FieldOps project-level PLANNED label; provider plans may remain planned.");
+  }
+}
+
 function checkSvg(value, file) {
   if (/<\s*(?:script|style|foreignObject)\b|\b(?:on[a-z]+|style|class)\s*=|<!ENTITY|<!DOCTYPE|@import/i.test(value)) {
     fail(file, "SVG contains active or externally resolved content.");
@@ -401,6 +439,7 @@ function main() {
       if (expression.test(text)) fail(file, `Possible ${label}; inspect locally. Matched content is withheld.`);
     }
     if (file.endsWith(".md")) checkMarkdown(text, file);
+    if (file === "README_REBRAND_V2.md") checkMainConcept(text, file);
     if (file.endsWith(".svg")) checkSvg(text, file);
   }
   for (const file of ["README.md", "README_REBRAND_V2.md"]) {

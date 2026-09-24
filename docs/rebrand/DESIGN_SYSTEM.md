@@ -1,5 +1,17 @@
 # Design system — Rebrand V2
 
+## Main Concept continuation — current local design
+
+The owner-requested continuation retains the accepted V2 visual system and project set. Its principal message is now **FROM PHYSICAL INFRASTRUCTURE / TO SECURE INTELLIGENT SYSTEMS**, with **CONSTRUCTION DX • LOGISTICS DX** and **APPLIED AI • CYBERSECURITY • PHYSICAL AI**. Software/data remain prominent in the native engineering foundation, rather than being removed from the professional story.
+
+The supplied reference image was absent. The written visual direction and existing accepted assets guide this update; no screenshot comparison or copying is claimed. Wide headers are now **1200 × 420**, mobile headers **600 × 460**, and the PNG fallback is regenerated from the full-size light header. Original technical geometry connects a physical structure to digital layers, a security boundary and human review; it is symbolic, not a system-performance diagram.
+
+FieldOps is now the first featured project. Its cards say **ACTIVE DEVELOPMENT**; native text specifies **Architecture & Workflow Design**, and the art separately says **CONCEPT**. Planned adapters/demos do not become completed integrations. Other project cards, icons and professional evidence remain the accepted V2 design.
+
+The reading order is identity/concept → FieldOps → selected systems → domain foundation → engineering foundation → applied AI → cybersecurity → current technical practice → undated professional direction → research horizon → learning/qualifications → Japanese profile → professional links. The previous dated vision heading is removed from the candidate. Long material remains native, selectable and logically expandable.
+
+The following sections record the accepted V2 design on which this targeted continuation builds. The header dimensions, tagline, FieldOps stage and reading-order updates above supersede their earlier values. See [MAIN_CONCEPT.md](MAIN_CONCEPT.md) and [RENDER_CHECKLIST.md](RENDER_CHECKLIST.md) for current scope and verification. The owner subsequently approved publication of this reviewed continuation together with the Sentrivela rename; account/website changes remain outside that approval.
+
 Local candidate, reviewed 25 September 2026. [Candidate](../../README_REBRAND_V2.md) · [Historical comparison](README_VERSION_COMPARISON.md) · [Content map](CONTENT_MAP.md).
 
 ## Direction

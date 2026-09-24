@@ -39,7 +39,7 @@ The historical layout is not the factual authority. The current profile and date
 - Approximately 13 years of construction project-management experience in the Philippines; Japan-based work and research; the complete English/Japanese domain narrative and contribution areas.
 - PHP, MySQL and SQL as the core systems toolkit; XAMPP, phpMyAdmin, JSON and Power BI; the distinction between portfolio implementation, development tools, current study and research technologies.
 - The ongoing BS Information Technology/ETEEAP direction, Civil Engineering university-study foundation and complete construction-supply capstone title.
-- Construction & Logistics DX and EAPA research scope; CyberGuard-Anywhere as an existing study subject; the portfolio Decision Systems Lab as an illustrative exercise.
+- Construction & Logistics DX and EAPA research scope; the cybersecurity study now named Sentrivela as an existing subject; the portfolio Decision Systems Lab as an illustrative exercise.
 - SITEARM concepts, evaluation methods, staged numerical/simulation pathway and evidence limitations, with four superseded current-evidence/records paragraphs corrected through the dated public-source update documented in the content review.
 - Course learning separated from professional qualifications; FE/SG preparation, AP and advanced-examination interests, JLPT/BJT study targets, and the separate long-term systems-architecture goal.
 - The industrial-design publication and designer attribution, its image, and the qualification that the publication alone does not establish grant or current legal status.
@@ -60,7 +60,7 @@ The V2 brief additionally authorizes FieldOps AI as a planned applied-AI/FDE-sty
 | `2770bbc0` | Refine Japanese terminology for bottleneck neutralization |
 | `e93a4044` | Emphasize formal university degree status in executive summary |
 | `f152a832` | Revise personal description |
-| `8db02955` | Fix CyberGuard-Anywhere link formatting |
+| `8db02955` | Correct earlier cybersecurity-project link formatting |
 | `d70bf5e0` | Fix patent-publication image link |
 | `25e60d13` | Expand patent section and publication details |
 | `466ef468` | Refine IPA taxonomy and Civil Engineering background |

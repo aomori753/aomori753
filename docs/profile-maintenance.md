@@ -37,6 +37,8 @@ The 25 September 2026 presentation candidate is documented in [rebrand/design.md
 
 The **V2 recovery candidate** is retained in [README_REBRAND_V2.md](../README_REBRAND_V2.md), with its [design system](rebrand/DESIGN_SYSTEM.md), [content map](rebrand/CONTENT_MAP.md) and [release control](rebrand/PUBLICATION_CHECKLIST.md). It recovers the stronger historical visual structure while retaining current facts and recording four bounded SITEARM evidence corrections. On 25 September 2026, the owner accepted V2 and authorized commit/push; the root README now contains the accepted candidate. The complete V1 snapshot remains recoverable. The older lowercase design/verification documents describe V1, not V2 acceptance.
 
+The subsequent [Main Concept V2 continuation](rebrand/MAIN_CONCEPT.md) and Sentrivela rename were prepared locally, then accepted with fresh commit/push approval on 25 September 2026. The root README now matches the retained accepted candidate. Its undated professional direction, owner-specified FieldOps design stage and cybersecurity pillar are not another repository synchronization. The [bio proposal](rebrand/PROFILE_SETTINGS_PROPOSED.md) does not change account settings. This release uses the new explicit approval, not authorization carried over from earlier work.
+
 ## Relationship to JerichoOng-Portfolio
 
 The portfolio supplies the shared professional narrative. Its `PROFILE_MASTER.md`, content provenance and current English/Japanese content establish identity, project scope and learning status. The GitHub profile emphasizes public research and technical evidence. Owner-confirmed corrections take precedence over older copy.
@@ -45,7 +47,7 @@ The review dated **24 September 2026** used the portfolio's working content, inc
 
 On 25 September, V2's [public-source review](rebrand/CONTENT_REVIEW.md) found SITEARM's published numerical implementation and generated research records. The candidate updates that evidence while explicitly retaining the absence of physical validation. The sibling portfolio was not read or changed for this V2 task, and its source fingerprints were not refreshed. These candidate corrections must be reconciled with approved portfolio content in a separately authorized synchronization review; do not claim both repositories were synchronized by this local rebrand.
 
-GitHub retains the earlier profile's additional subjects: advanced examination interests, JLPT goals, CyberGuard-Anywhere, industrial design and research ethics. Their wording distinguishes experience, ongoing work, published research, learning and future goals. A publication image establishes the facts visible in that document; stronger legal or credential claims require supporting records.
+GitHub retains the earlier profile's additional subjects: advanced examination interests, JLPT goals, Sentrivela, industrial design and research ethics. Their wording distinguishes experience, ongoing work, published research, learning and future goals. A publication image establishes the facts visible in that document; stronger legal or credential claims require supporting records.
 
 ### Update workflow
 

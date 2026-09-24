@@ -1,5 +1,35 @@
 # Content map — Rebrand V2
 
+## Main Concept V2 continuation — current local candidate
+
+The current continuation starts from accepted V2 `6a0ddd15a98fdaee31f55f649ac6d34aaa7fbbef`, not another historical version. The rest of this document preserves the earlier V1-to-V2 editorial record. Its former FieldOps PLANNED status and dated vision location describe that earlier baseline, not the current continuation.
+
+| Accepted V2 subject | Current candidate destination | Treatment |
+| --- | --- | --- |
+| Brand, compact identity, navigation | Opening and professional concept | Identity and approximately-13-years wording unchanged; new secure-intelligent-systems tagline and FieldOps navigation |
+| Four-area current direction | Professional concept; domain/engineering foundation; active development; research horizon | Reorganized into the requested undated layers; operational, digital-systems, DX and intelligent-systems subjects retained |
+| FieldOps AI | Immediately after professional concept | Owner-authorized ACTIVE DEVELOPMENT — Architecture & Workflow Design; corresponding Japanese status updated; concept art and planned integration limits remain explicit |
+| Selected capstone, SITEARM, DX, EAPA and further work | Selected systems and research | Complete project blocks retained, including the earlier four source-backed SITEARM corrections and all evidence limitations |
+| Full English profile and contributions | Domain foundation | Original prose retained in native text; Japanese profile linked directly |
+| Full Japanese professional profile | Dedicated Japanese profile section near professional links | Original full paragraphs retained, not replaced by a short summary; project-specific Japanese details remain adjacent to projects |
+| Complete stack and AI-assisted workflow | Current technical practice | Original tools and usage contexts retained; FieldOps design activity distinguished from planned integrations |
+| Agentic AI practices | Applied AI and automation | Existing practices and Japanese limitations retained; task design, access boundaries, observability and bilingual workflow priorities added as development areas |
+| Research privacy/independence and references | Cybersecurity development focus | Original English/Japanese statements retained; new lifecycle/security priorities explicitly labelled learning and development |
+| Dated vision heading and role aspiration | Professional direction and research horizon | Date removed; enterprise systems architecture retained as a technical direction without a predicted job title; research prose and Japanese direction retained |
+| Now/Next/Longer-term items and field-to-deployment process | Professional direction disclosure and research horizon | Native content retained and regrouped without dates or promised capability deadlines |
+| Industrial-design evidence, education, courses, exam/language goals | Learning and qualifications | Exact facts and completion/preparation distinctions retained; historical publication date is not a future roadmap |
+| Professional contacts | Professional links | Existing English/Japanese opportunity statements and public destinations retained |
+
+### Explicit continuation changes
+
+The owner authorizes the principal tagline change, the undated hierarchy, the enterprise-architecture wording adjustment and the FieldOps design-stage update. These are not silently described as copy-identical. The current English/Japanese FieldOps text explicitly retains the absence of completed client delivery, FDE employment and verified runtime integrations. Provider support and implementation evidence remain planned.
+
+The existing full concept workflow remains native text; new foundation and cybersecurity sections supplement, rather than replace, professional facts. “Research Horizon” is explicitly not current expertise. See [MAIN_CONCEPT.md](MAIN_CONCEPT.md) for the missing-reference limitation and rationale, and [RENDER_CHECKLIST.md](RENDER_CHECKLIST.md) for measured content accounting.
+
+Final rendered accounting covers 252 accepted-V2 blocks: 230 exact preserved text matches, six declared status/direction changes and 16 declared presentation changes. All original link labels and destinations remain, including repeated occurrences. The six substantive deltas are the FieldOps project-stage/category block, its English description, corresponding Japanese description, its technical-practice entry, the Agentic AI cross-reference to its stage, and the undated enterprise-architecture direction paragraph. The remaining deltas rename/regroup headings and direction labels, extend navigation with FieldOps and update the native brand tagline. No original credential, study status, project evidence limitation or privacy qualification is removed.
+
+## Earlier V1-to-V2 record
+
 Review date: 25 September 2026. Historical presentation reference: `535c997a0543de05601ccb31b7cf28e8bc15304c`. Published V1 content snapshot: `19e9febd78f4d6e7fc892256c9a4e75a50ca37ba`. Candidate: [README_REBRAND_V2.md](../../README_REBRAND_V2.md).
 
 The map preserves still-valid professional information while recording four source-backed SITEARM paragraph updates. It does not describe the candidate as word-for-word unchanged. The public source decision and unresolved project evidence are in [CONTENT_REVIEW.md](CONTENT_REVIEW.md).
@@ -15,7 +45,7 @@ The map preserves still-valid professional information while recording four sour
 | Construction & Logistics DX | Framework entry under an overbroad deployment heading | Independent research, material flow/JIT/workfront scope, public documentation and conceptual-architecture evidence | [Construction & Logistics DX Japan](../../README_REBRAND_V2.md#construction-dx); original category/evidence visible, complete English/Japanese scope adjacent |
 | EAPA | Embodied-assistant architecture entry | Research architecture, perception/prediction/action, context and human oversight; public implementation guidance | [EAPA](../../README_REBRAND_V2.md#eapa); architecture status and evidence visible, complete English/Japanese scope retained |
 | SITEARM | Not in the selected historical version | Wearable-assistance research, earlier design questions, evaluation topics and staged toolchain | [SITEARM](../../README_REBRAND_V2.md#sitearm); original research context retained, four outdated paragraphs updated as specified below |
-| Other existing work | CyberGuard-Anywhere named | Personal cybersecurity study and illustrative portfolio Decision Systems Lab | Selected systems → Further work disclosure; no invented repository or demo links |
+| Other existing work | Existing cybersecurity study, now named Sentrivela | Personal cybersecurity study and illustrative portfolio Decision Systems Lab | Selected systems → Further work disclosure; no invented repository or demo links |
 | Core systems and tools | Compact icons; later purpose-based badge groups | PHP/MySQL/SQL core; local development, data/reporting, programming, documentation, portfolio technologies and research distinctions | [Engineering stack](../../README_REBRAND_V2.md#toolkit); compact context groups plus the complete technology inventory |
 | AI-assisted workflow | AI/service names grouped with technology badges | Research/writing tools, coding/prototyping tools and the reviewed development workflow | Engineering stack → AI-assisted engineering tools; existing English/Japanese workflow wording retained |
 | Academic development | Brief IT-study mention, expanded in later versions | BSIT/ETEEAP in progress and four years of Civil Engineering university study as background | [Education and professional development](../../README_REBRAND_V2.md#development); no graduation or engineering-licensure claim |
@@ -84,7 +114,7 @@ The numerical scope and conceptual nature of the portfolio viewer remain explici
 - **Agentic AI and automation:** **BUILDING** describes developing practices. Runtime/provider architecture is visibly separated from AI development assistants; no completed API integration or production agent expertise is claimed.
 - **From field to deployment:** the workflow describes an intended process. A deployment stage in that process does not establish an existing deployment.
 - **SITEARM source update:** the newly verified repository link and bounded numerical technology list accompany the four paragraph corrections. Earlier S1/P1/M1 questions are labelled as prior working questions; the public code identifiers are stated separately.
-- **Project discovery:** Sentrivela and Super Bear remain documented evidence gaps rather than invented project cards. The capstone has no fabricated repository or demo link.
+- **Project discovery:** The owner confirms Sentrivela as the renamed existing cybersecurity study; its approved description and status are retained. Additional implementation/link evidence for Sentrivela and Super Bear remains a separate question, not a reason to invent project cards. The capstone has no fabricated repository or demo link.
 
 ## Presentation moves and independent review
 

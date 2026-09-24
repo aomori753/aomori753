@@ -1,5 +1,13 @@
 # GitHub profile repository
 
+## Current task override — Main Concept V2
+
+The owner requested a targeted continuation of accepted V2, then the Sentrivela rename, and subsequently explicitly approved commit/push on 25 September 2026. This fresh approval lifts the local-only hold for the reviewed Main Concept/Sentrivela release to this profile repository's default `main` branch. The accepted `README_REBRAND_V2.md` is retained and copied unchanged into `README.md` for release. Preserve earlier recovery snapshots. This does not authorize account settings, another repository or a website deployment; future changes need their own task authority.
+
+Follow the owner-authorized undated concept in `docs/rebrand/MAIN_CONCEPT.md`. FieldOps project status is now ACTIVE DEVELOPMENT — Architecture & Workflow Design, while its art remains CONCEPT and provider/runtime implementation remains planned. Retain software/data foundations, cybersecurity development limits, complete professional facts and explicit research-horizon labels. Do not introduce a dated future roadmap, predicted job title or unearned expertise. The missing reference image must not be described as inspected. No other repository or future FieldOps directory is in scope.
+
+The new frozen source is accepted V2 `6a0ddd15a98fdaee31f55f649ac6d34aaa7fbbef`, candidate SHA-256 `55688619a83628aca497f8f2fd8e60ca6464ebedef2f86681f2a83462d5d390a`, copied under `.rebrand-local/main-concept-v2-20260925/baseline/`. Older V1/V2 comparisons below are historical; do not rewrite their baselines or apply their earlier status rules to the newly authorized concept. Record all explicit wording/status deltas against this new source, render the current candidate and run the public-file checker on both Markdown files.
+
 This is `aomori753/aomori753`, the public GitHub profile repository, not the portfolio website. Keep it a small Markdown-and-assets project. Do not add an application framework, backend, analytics, live widgets or publishing service.
 
 ## Content and scope

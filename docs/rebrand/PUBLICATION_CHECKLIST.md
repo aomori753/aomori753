@@ -1,5 +1,11 @@
 # Publication control — Rebrand V2
 
+## Current approval — Main Concept and Sentrivela
+
+The Main Concept V2 and Sentrivela work was prepared locally without publication. The owner subsequently accepted it and explicitly requested commit/push on 25 September 2026. This fresh approval covers the reviewed candidate, shared assets and supporting documents in this profile repository, targeting default `main` by normal fast-forward publication. The root README now matches the retained candidate exactly. [MAIN_CONCEPT.md](MAIN_CONCEPT.md) documents the concept scope and source. No bio/account setting, other repository, visibility or website change is included. Verify remote/CI results after pushing rather than treating authorization as proof of publication.
+
+## Previous accepted V2 release
+
 **Status: owner-approved release. On 25 September 2026, the owner accepted V2 and explicitly requested commit/push to `aomori753/aomori753`.** The earlier local-only hold is superseded for this reviewed profile release, not for unrelated account or repository changes.
 
 The retained candidate is [README_REBRAND_V2.md](../../README_REBRAND_V2.md), prepared on `rebrand/profile-v2-20260925`. Its accepted content has been copied into the root README without editorial changes. The release target is the verified default branch `main`. Original V1 Markdown and assets remain in the ignored baseline snapshot and Git history.

@@ -3,7 +3,7 @@
   <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="assets/brand/header-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/brand/header-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/brand/header-light.svg">
-  <img src="assets/brand/header-fallback.png" alt="Jericho Ong — IT and Digital Systems. From physical infrastructure to digital systems." width="1200">
+  <img src="assets/brand/header-fallback.png" alt="Jericho Ong — IT and Digital Systems. From physical infrastructure to secure intelligent systems." width="1200">
 </picture>
 
 <p><strong>Jericho Ong · ジェリコ・オング</strong></p>
@@ -16,20 +16,93 @@
 
 <p>
   <a href="https://github.com/aomori753/construction-logistics-dx-japan">Research / 研究</a> ·
+  <a href="#fieldops">FieldOps AI</a> ·
   <a href="#projects">Projects / プロジェクト</a> ·
   <a href="#toolkit">Toolkit / 使用技術</a> ·
   <a href="#development">Development / 学習と資格目標</a> ·
   <a href="https://www.linkedin.com/in/jericho-o-52b9b434a/">Connect / お問い合わせ</a>
 </p>
 
-## Current direction / 現在の方向性
+<a id="concept"></a>
 
-| Perspective | Focus |
-| --- | --- |
-| FIELD EXPERIENCE | Construction project management |
-| DIGITAL SYSTEMS | Software, data and operational workflows |
-| DX | Construction and logistics |
-| INTELLIGENT SYSTEMS | Automation, Agentic AI and Physical AI exploration |
+## From physical infrastructure to secure intelligent systems
+
+> **Field Operations → Requirements → Software and Data → Secure Digital Systems → Agentic AI → Human-Reviewed Decisions → Cyber-Physical Intelligence**
+
+A professional direction grounded in construction and logistics experience—not a dated career timeline or a claim that every capability is already implemented.
+
+**DOMAIN FOUNDATION** · Construction project management and operational constraints.<br>
+**ENGINEERING FOUNDATION** · Software, data and operational workflows.<br>
+**ACTIVE DEVELOPMENT** · Construction and logistics DX, Applied AI, secure automation and bilingual delivery.<br>
+**RESEARCH HORIZON** · Physical AI and cyber-physical intelligence: exploring, not established expertise.
+
+<details>
+<summary>Concept in context / コンセプトの位置づけ</summary>
+
+Physical infrastructure → construction and logistics operations → digital systems → software, data and cloud foundations → cybersecurity and secure automation → applied AI and agentic workflows → secure intelligent systems → cyber-physical systems and Physical AI.
+
+Software and data remain the foundation throughout this direction. Human judgment and security are design responsibilities across the system, not capabilities that disappear when AI is introduced.
+
+建設・物流で培った現場の経験を、要件、ソフトウェア・データ、安全性を考慮したデジタルシステム、応用AIへと結び付ける方向性です。フィジカルAIやサイバーフィジカルシステムは長期的な研究領域であり、習熟や導入実績を示すものではありません。人による判断とセキュリティを、設計全体を通じた責任として位置付けます。
+
+</details>
+
+<a id="fieldops"></a>
+
+## FIELDOPS AI
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/project-cards/fieldops-ai-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/project-cards/fieldops-ai-light.svg">
+  <img src="assets/project-cards/fieldops-ai-light.svg" alt="FieldOps AI — active architecture and workflow design; concept diagram, not a deployed system" width="1200">
+</picture>
+
+**Bilingual Agentic Workflow for Construction & Logistics**
+
+**ACTIVE DEVELOPMENT — Architecture & Workflow Design**
+
+**開発中 — アーキテクチャ・ワークフロー設計**
+
+**APPLIED AI · TECHNICAL DELIVERY · FDE-STYLE PROJECT**
+
+Architecture illustration: **CONCEPT**.
+
+An architecture-and-workflow design project connecting construction and logistics incidents with bilingual, human-approved operational workflows. “FDE-style” describes the delivery approach being developed, not current FDE employment or completed client delivery. No working runtime or provider integration is claimed.
+
+> Operational incident → bilingual intake → triage → data/tool retrieval → root-cause analysis → action planning → risk review → human approval → bilingual communication → audit and evaluation
+
+<details>
+<summary>Planned architecture and engineering evidence / 計画している構成と成果物</summary>
+
+**Design bridge — ACTIVE DEVELOPMENT**
+
+Construction and logistics experience → operational requirements → software and data → secure tool integration → agentic AI workflow → human approval → auditable operational action.
+
+This is the design intent, not an operational system or a record of delivered actions.
+
+**Provider-neutral architecture — PLANNED**
+
+- OpenAI adapter; Anthropic adapter; Gemini adapter.
+- Optional local-model adapter and deterministic demo mode.
+
+**Engineering evidence — PLANNED**
+
+- Requirements discovery and stakeholder/workflow map.
+- System architecture and tool integrations.
+- Human approval and evaluation harness.
+- Observability and security testing.
+- Bilingual runbook and feedback loop.
+
+These are intended deliverables, not existing integrations, live agents, benchmark results or a production deployment.
+
+</details>
+
+<details>
+<summary>日本語 / FIELDOPS AI</summary>
+
+建設・物流の業務上の事象を、日英の受付、情報の確認、原因の検討、対応案、リスク確認、人による承認、連絡、監査・評価へつなぐプロジェクトです。現在はアーキテクチャ・ワークフローの設計段階として開発に取り組んでいます。FDE型の技術提供プロセスを学び実践する方向性であり、現在のFDE職への就業や顧客向けの導入実績を示すものではありません。モデル提供元のアダプター、デモ、評価環境などは計画している成果物です。
+
+</details>
 
 <a id="projects"></a>
 
@@ -215,67 +288,163 @@ Investigates a perception–prediction–action architecture for assistance that
 <details>
 <summary><strong>Further work / その他の取り組み</strong></summary>
 
-- **CyberGuard-Anywhere — personal cybersecurity architecture study.** Security protocols, risk awareness and security-management foundations informed by IPA study and Google cybersecurity learning. / セキュリティプロトコル、リスク認識、管理の基礎を扱う個人研究。IPAの学習とGoogleのサイバーセキュリティ学習を参照しています。
+- **Sentrivela — personal cybersecurity architecture study.** Security protocols, risk awareness and security-management foundations informed by IPA study and Google cybersecurity learning. / セキュリティプロトコル、リスク認識、管理の基礎を扱う個人研究。IPAの学習とGoogleのサイバーセキュリティ学習を参照しています。
 - **Bilingual portfolio & Decision Systems Lab — local portfolio build.** An interactive, rule-based exercise examines delayed deliveries, inventory discrepancies and unavailable equipment. Visitors review conditions and choose an illustrative response. / 日英ポートフォリオをローカルで制作。搬入遅延、在庫差異、機材の使用不可を題材に、条件の確認と対応の選択を体験できる演習を含みます。
 
 Public repository or demo links will accompany these entries when available.
 
 </details>
 
-<a id="fieldops"></a>
+<a id="profile"></a>
 
-## FIELDOPS AI
+## Domain foundation / 建設・物流の経験
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/project-cards/fieldops-ai-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/project-cards/fieldops-ai-light.svg">
-  <img src="assets/project-cards/fieldops-ai-light.svg" alt="FieldOps AI — planned bilingual agentic workflow; conceptual diagram" width="1200">
-</picture>
+Construction operations, logistics and material coordination inform how I examine workforce/equipment dependencies, project readiness, operational constraints, requirements and workflows.
 
-**Bilingual Agentic Workflow for Construction & Logistics**
-
-**PLANNED / 計画段階** · Applied AI / FDE-style technical delivery project.
-
-An intended learning-and-delivery project connecting construction and logistics incidents with bilingual, human-approved operational workflows. “FDE-style” describes the proposed approach, not current FDE employment or completed client delivery. No working runtime or provider integration is claimed.
-
-> Operational incident → bilingual intake → triage → data/tool retrieval → root-cause analysis → action planning → risk review → human approval → bilingual communication → audit and evaluation
+[日本語プロフィール](#japanese-profile) · Complete English background and contribution areas below.
 
 <details>
-<summary>Planned architecture and engineering evidence / 計画している構成と成果物</summary>
+<summary>Professional background / English</summary>
 
-**Provider-neutral architecture — PLANNED**
+I bring approximately **13 years of construction project-management experience in the Philippines** to the study of digital systems. Coordinating materials, people, equipment and site operations taught me to examine the dependencies behind an operational problem: what is available, what is ready, and what must be confirmed before work can proceed.
 
-- OpenAI adapter; Anthropic adapter; Gemini adapter.
-- Optional local-model adapter and deterministic demo mode.
+Based in Japan, I am developing my software, data and cybersecurity capabilities through ongoing **BS Information Technology studies at the University of the East, Manila, through ETEEAP**, practical development and independent research. My earlier four years of Civil Engineering university study provide an academic foundation for this transition.
 
-**Engineering evidence — PLANNED**
+My focus is **construction and logistics digital transformation (DX)**: translating field constraints into system requirements, reliable data and accountable workflows. PHP, MySQL and SQL form the core of my systems toolkit; Python, automation and simulation extend my current learning and research.
 
-- Requirements discovery and stakeholder/workflow map.
-- System architecture and tool integrations.
-- Human approval and evaluation harness.
-- Observability and security testing.
-- Bilingual runbook and feedback loop.
+> **Research focus:** How can information systems improve coordination between material supply, delivery and workfront readiness while preserving human judgment and operational safety?
 
-These are intended deliverables, not existing integrations, live agents, benchmark results or a production deployment.
+</details>
+
+
+
+<details>
+<summary>Areas of contribution · 貢献できる領域</summary>
+
+### Areas of contribution · 貢献できる領域
+
+**Focus / 領域** · **Practical contribution / 取り組み**
+
+**Operational requirements / 業務要件**
+
+Map material, crew and equipment dependencies into documented requirements and workflows. / 資材・人員・機材の依存関係を要件と業務フローに整理。
+
+**Software and data / ソフトウェアとデータ**
+
+Develop inventory and ordering concepts, structured records, queries and reporting around construction-supply needs. / 建設資材の業務に即した在庫・発注、データ管理、照会、レポートを検討・実装。
+
+**Research and documentation / 研究と文書化**
+
+Frame research questions, explain assumptions and maintain traceable English/Japanese technical documentation. / 研究課題と仮定を明確にし、変更を追跡できる日英の技術文書を作成。
+
+</details>
+
+<a id="engineering-foundation"></a>
+
+## Engineering foundation / ソフトウェア・データの基礎
+
+**SOFTWARE AND DATA REMAIN THE FOUNDATION.**
+
+Reliable software, data models, databases and APIs support automation and intelligent systems. Cloud and infrastructure foundations, testing, security, observability, documentation and human-centred system design remain essential—not substitutes for one another.
+
+- **CURRENT SYSTEMS PRACTICE** · PHP, MySQL and SQL; numerical research and portfolio technologies retain their specific contexts in the [technical practice](#toolkit) section.
+- **DEVELOPING FOUNDATIONS** · Cloud concepts, APIs, testing, systems integration and deployment thinking. These are learning and design priorities, not evidence of production cloud operations.
+
+<details>
+<summary>日本語 / エンジニアリングの基礎</summary>
+
+ソフトウェア、データモデル、データベース、APIは、自動化と知的システムを支える基礎です。クラウド・インフラ、テスト、セキュリティ、可観測性、文書化、人を中心とした設計を継続して学びます。使用している技術と、学習・設計中の項目を区別します。
+
+</details>
+
+<a id="applied-ai"></a>
+
+## Applied AI and automation / 応用AIと自動化
+
+**STATUS: BUILDING** — developing a practice; FieldOps AI is in **ACTIVE DEVELOPMENT — Architecture & Workflow Design**. Runtime integrations remain planned.
+
+- Workflow decomposition and structured outputs.
+- Tool orchestration and human-in-the-loop design.
+- Retrieval concepts and evaluation planning.
+- Task and agent design, tool-calling patterns and data-access boundaries.
+- Observability and bilingual operational workflows.
+- Auditability and model comparison.
+- Prompt-injection awareness, latency and cost awareness.
+
+These are development and evaluation priorities, not a claim of production agent expertise.
+
+| Separate roles | Current boundary |
+| --- | --- |
+| MODEL PROVIDERS / RUNTIME | OpenAI, Anthropic, Gemini and optional local models: planned architecture, not verified integrations |
+| AI DEVELOPMENT ASSISTANTS | ChatGPT, Codex, Claude and Google AI Studio: tools in the documented AI-assisted workflow |
+
+<details>
+<summary>日本語 / 開発の方向性</summary>
+
+ワークフローの分解、構造化出力、ツール連携、人による判断、検索の概念、評価計画、監査可能性、モデル比較、プロンプトインジェクションへの注意、遅延とコストの把握を学び、開発方針として整理しています。BUILDINGは技能と実践を形成している段階を表し、FIELDOPS AIの実装済み・本番稼働を意味しません。ランタイムの提供元と開発を支援するAIツールは区別します。
+
+</details>
+
+<a id="cybersecurity"></a>
+
+## Cybersecurity development focus / セキュリティの学習と実践
+
+**MAJOR DEVELOPMENT FOCUS · SECURITY-AWARE SYSTEM DESIGN**
+
+Security is a cross-cutting development focus for software, databases, APIs, cloud systems, identities, AI agents, data access, tools, workflows, physical-system integrations and operational decisions.
+
+**SECURITY ACROSS THE SYSTEM LIFECYCLE**
+
+> Requirements → Design → Development → Integration → Deployment → Monitoring → Incident Response → Continuous Improvement
+
+**LEARNING AND PRACTICE** · Access boundaries and least privilege; secure data/tool integration; human approval; prompt-injection awareness; reviewable logs; security testing and incident-response planning.
+
+These are development priorities, not a cybersecurity-expert designation, audited compliance or a claim that these controls are deployed across every project.
+
+<details>
+<summary>日本語 / セキュリティの位置づけ</summary>
+
+サイバーセキュリティを主要な学習・開発分野として、要件から設計、開発、連携、運用、監視、インシデント対応、継続的改善まで横断的に検討します。データやツールへのアクセス境界、人による承認、記録、テストを重視します。専門家資格、監査による適合確認、各プロジェクトでの実装完了を意味するものではありません。
+
+</details>
+
+<a id="integrity"></a>
+
+### Research practice & data ethics · 研究方針とデータ倫理
+
+<details>
+<summary>Research boundaries and privacy / English</summary>
+
+My published frameworks, pseudocode and technical specifications are independent research. They do not disclose or represent the proprietary systems, confidential data or official positions of past or current employers.
+
+**Privacy by design** informs my research into workforce telemetry and IoT for safety coordination and workload balancing: collect only what is necessary, minimize identification, restrict access and consider aggregation, anonymization and encryption where appropriate. Real deployments require their own technical, operational and legal assessment.
 
 </details>
 
 <details>
-<summary>日本語 / FIELDOPS AI</summary>
+<summary>日本語 / Japanese</summary>
 
-建設・物流の業務上の事象を、日英の受付、情報の確認、原因の検討、対応案、リスク確認、人による承認、連絡、監査・評価へつなぐ計画段階のプロジェクトです。FDE型の技術提供プロセスを学び実践する方向性であり、現在のFDE職への就業や顧客向けの導入実績を示すものではありません。モデル提供元のアダプター、デモ、評価環境などは計画している成果物です。
+公開するフレームワーク、擬似コード、技術仕様は独立研究の成果です。過去・現在の雇用主の独自システム、機密情報、公式見解を開示・代弁するものではありません。安全面の連携と作業負荷の調整を目的とする人員データ・IoTの研究では、必要最小限の収集、個人識別の抑制、アクセス制御、集約・匿名化・暗号化の検討を重視します。実際の導入には、個別の技術・運用・法的評価が必要です。
 
 </details>
 
-## From field to deployment / 現場から実装へ
+<details>
+<summary><strong>Institutional references / 参照する制度・産業情報</strong></summary>
 
-**FIELD OPERATIONS → REQUIREMENTS → DATA → SYSTEM DESIGN → IMPLEMENTATION → HUMAN REVIEW → DEPLOYMENT → FEEDBACK**
+- [IPA — examination categories and professional development](https://www.ipa.go.jp/shiken/kubun/list.html)
+- [MLIT — i-Construction](https://www.mlit.go.jp/tec/i-construction/index.html)
+- [JILS — Japan Institute of Logistics Systems](https://www1.logistics.or.jp/)
+- [Personal Information Protection Commission — APPI and related materials](https://www.ppc.go.jp/en/legal/)
 
-An intended delivery process grounded in field experience. The deployment step is a target in the process, not a claim that the research projects above are deployed.
+These sources inform learning and research context. References do not imply affiliation, endorsement, certification or an audited compliance finding.
+
+これらは学習・研究の参照資料です。所属、推薦、認証、監査による適合確認を示すものではありません。
+
+</details>
 
 <a id="toolkit"></a>
 
-## Engineering stack / 技術と実践
+## Current technical practice / 技術と実践
 
 **PHP, MySQL and SQL are central to my systems work.** The wider toolkit supports software development, data handling, technical documentation and continued study.
 
@@ -301,7 +470,7 @@ An intended delivery process grounded in field experience. The deployment step i
 
 <p><img src="assets/icons/workflow.svg" alt="Original workflow category symbol" width="40" height="40"></p>
 
-**PLANNED — FieldOps AI** · Provider adapters, tool orchestration, deterministic demo mode and human approval. See the [project scope](#fieldops); no completed API integration is implied.
+**ACTIVE DEVELOPMENT — FieldOps AI: Architecture & Workflow Design.** Provider adapters, tool orchestration, deterministic demo mode and human approval remain **PLANNED INTEGRATION** targets. See the [project scope](#fieldops); no completed API integration is implied.
 
 ### Delivery and operations
 
@@ -379,116 +548,61 @@ OpenUSD · NVIDIA Omniverse · Isaac Sim — planned scene-composition and simul
 
 [Icon credits and usage notes](docs/rebrand/ASSET_LICENSES.md)
 
-## Agentic AI and automation / エージェント型AIと自動化
+<a id="vision"></a>
 
-**STATUS: BUILDING** — developing a practice; FieldOps AI remains **PLANNED**.
+## Professional direction / 専門性を育てる方向性
 
-- Workflow decomposition and structured outputs.
-- Tool orchestration and human-in-the-loop design.
-- Retrieval concepts and evaluation planning.
-- Auditability and model comparison.
-- Prompt-injection awareness, latency and cost awareness.
+My long-term technical direction is **enterprise systems architecture**, connecting physical operations with reliable software, data and human-guided automation.
 
-These are development and evaluation priorities, not a claim of production agent expertise.
-
-| Separate roles | Current boundary |
+| Undated layer | Technical direction |
 | --- | --- |
-| MODEL PROVIDERS / RUNTIME | OpenAI, Anthropic, Gemini and optional local models: planned architecture, not verified integrations |
-| AI DEVELOPMENT ASSISTANTS | ChatGPT, Codex, Claude and Google AI Studio: tools in the documented AI-assisted workflow |
+| ENGINEERING FOUNDATION | Software, data, databases, cloud foundations, APIs, automation, testing, documentation and systems integration |
+| ACTIVE DEVELOPMENT | Applied AI, Agentic AI, FieldOps AI architecture/workflow design, cybersecurity, secure automation, bilingual systems, FDE-style technical delivery, evaluation and observability |
+| RESEARCH HORIZON | Physical AI, cyber-physical systems, digital twins, robotics and human–machine collaboration |
+
+These layers describe focus and intent, not a schedule, predicted job title or promised capability date. FieldOps design activity is distinct from its planned provider integrations.
 
 <details>
-<summary>日本語 / 開発の方向性</summary>
+<summary>Delivery approach and current commitments / 実装への考え方と取り組み</summary>
 
-ワークフローの分解、構造化出力、ツール連携、人による判断、検索の概念、評価計画、監査可能性、モデル比較、プロンプトインジェクションへの注意、遅延とコストの把握を学び、開発方針として整理しています。BUILDINGは技能と実践を形成している段階を表し、FIELDOPS AIの実装済み・本番稼働を意味しません。ランタイムの提供元と開発を支援するAIツールは区別します。
+### From field to deployment / 現場から実装へ
+
+**FIELD OPERATIONS → REQUIREMENTS → DATA → SYSTEM DESIGN → IMPLEMENTATION → HUMAN REVIEW → DEPLOYMENT → FEEDBACK**
+
+An intended delivery process grounded in field experience. The deployment step is a target in the process, not a claim that the research projects above are deployed.
+
+**CURRENT LEARNING AND WORK**
+
+BSIT studies, capstone, PHP/data work and DX documentation
+
+IPA preparation, professional Japanese, stronger software/security foundations and SITEARM numerical studies
 
 </details>
 
-<a id="profile"></a>
+<a id="research-horizon"></a>
 
-## Profile · 専門性と視点
+## Research horizon / 長期的な研究領域
 
-<details>
-<summary>Professional background / English</summary>
+**EXPLORING · LONG-TERM DIRECTION**
 
-I bring approximately **13 years of construction project-management experience in the Philippines** to the study of digital systems. Coordinating materials, people, equipment and site operations taught me to examine the dependencies behind an operational problem: what is available, what is ready, and what must be confirmed before work can proceed.
+Physical AI · cyber-physical systems · digital twins · IoT · simulation · robotics · embodied intelligence · human–machine collaboration · secure autonomous systems · advanced intelligent systems.
 
-Based in Japan, I am developing my software, data and cybersecurity capabilities through ongoing **BS Information Technology studies at the University of the East, Manila, through ETEEAP**, practical development and independent research. My earlier four years of Civil Engineering university study provide an academic foundation for this transition.
+**Research Horizon represents long-term areas of study and technical direction, not current claims of expertise.**
 
-My focus is **construction and logistics digital transformation (DX)**: translating field constraints into system requirements, reliable data and accountable workflows. PHP, MySQL and SQL form the core of my systems toolkit; Python, automation and simulation extend my current learning and research.
+The research direction includes cyber-physical systems, cloud-based digital twins, predictive routing, embodied intelligence and Physical AI. The progression starts with explicit requirements and reproducible models, then examines whether increasingly capable systems can address the constraints found in real construction and logistics work.
 
-> **Research focus:** How can information systems improve coordination between material supply, delivery and workfront readiness while preserving human judgment and operational safety?
-
-</details>
-
-<details>
-<summary><strong>日本語 / プロフィール</strong></summary>
-
-フィリピンで約13年間、建設プロジェクト管理に従事し、資材、人員、機材、現場業務の調整に携わってきました。この経験から、業務上の課題を個別の作業としてだけでなく、供給状況、準備状況、着手前の確認事項が相互に関わる問題として捉えています。
-
-現在は日本を拠点に、University of the East（マニラ）のETEEAP課程で情報技術の学士号取得に取り組み、実装と独立研究を通じてソフトウェア、データ、サイバーセキュリティの技能を高めています。大学で4年間学んだ土木工学の基礎が、この分野転換を支えています。
-
-研究の中心は**建設・物流DX**です。現場の制約をシステム要件、信頼できるデータ、責任の所在が明確な業務フローへと整理します。PHP・MySQL・SQLをシステム開発の軸に、Python、自動化、シミュレーションへ学習と研究を広げています。
-
-**研究課題：** 人の判断と現場の安全を尊重しながら、資材供給、搬入、作業着手条件の連携を情報システムでどう改善できるか。
-
-</details>
-
-<details>
-<summary>Areas of contribution · 貢献できる領域</summary>
-
-### Areas of contribution · 貢献できる領域
-
-**Focus / 領域** · **Practical contribution / 取り組み**
-
-**Operational requirements / 業務要件**
-
-Map material, crew and equipment dependencies into documented requirements and workflows. / 資材・人員・機材の依存関係を要件と業務フローに整理。
-
-**Software and data / ソフトウェアとデータ**
-
-Develop inventory and ordering concepts, structured records, queries and reporting around construction-supply needs. / 建設資材の業務に即した在庫・発注、データ管理、照会、レポートを検討・実装。
-
-**Research and documentation / 研究と文書化**
-
-Frame research questions, explain assumptions and maintain traceable English/Japanese technical documentation. / 研究課題と仮定を明確にし、変更を追跡できる日英の技術文書を作成。
-
-</details>
-
-<a id="integrity"></a>
-
-## Research practice & data ethics · 研究方針とデータ倫理
-
-<details>
-<summary>Research boundaries and privacy / English</summary>
-
-My published frameworks, pseudocode and technical specifications are independent research. They do not disclose or represent the proprietary systems, confidential data or official positions of past or current employers.
-
-**Privacy by design** informs my research into workforce telemetry and IoT for safety coordination and workload balancing: collect only what is necessary, minimize identification, restrict access and consider aggregation, anonymization and encryption where appropriate. Real deployments require their own technical, operational and legal assessment.
-
-</details>
+Systems architecture; OpenUSD/Omniverse simulation; carefully evaluated intelligent assistance
 
 <details>
 <summary>日本語 / Japanese</summary>
 
-公開するフレームワーク、擬似コード、技術仕様は独立研究の成果です。過去・現在の雇用主の独自システム、機密情報、公式見解を開示・代弁するものではありません。安全面の連携と作業負荷の調整を目的とする人員データ・IoTの研究では、必要最小限の収集、個人識別の抑制、アクセス制御、集約・匿名化・暗号化の検討を重視します。実際の導入には、個別の技術・運用・法的評価が必要です。
+長期的には、現場業務と信頼できるソフトウェア、データ、人の判断を支える自動化を結ぶエンタープライズ・システムアーキテクチャを目指しています。要件と再現可能なモデルを基礎に、サイバーフィジカルシステム、クラウド上のデジタルツイン、予測ルーティング、身体性AI、フィジカルAIへ研究を広げる方針です。
 
 </details>
 
-<details>
-<summary><strong>Institutional references / 参照する制度・産業情報</strong></summary>
+フィジカルAI、ロボティクス、安全性を考慮した自律システム、人と機械の協働は長期的な研究・学習の方向性です。現在の専門性、業界での職務経験、実機の検証済み性能を示すものではありません。
 
-- [IPA — examination categories and professional development](https://www.ipa.go.jp/shiken/kubun/list.html)
-- [MLIT — i-Construction](https://www.mlit.go.jp/tec/i-construction/index.html)
-- [JILS — Japan Institute of Logistics Systems](https://www1.logistics.or.jp/)
-- [Personal Information Protection Commission — APPI and related materials](https://www.ppc.go.jp/en/legal/)
-
-These sources inform learning and research context. References do not imply affiliation, endorsement, certification or an audited compliance finding.
-
-これらは学習・研究の参照資料です。所属、推薦、認証、監査による適合確認を示すものではありません。
-
-</details>
-
-## Achievements, development & roadmap / 記録・学習・今後の方向性
+## Learning and qualifications / 学習と資格
 
 <a id="design"></a>
 
@@ -515,7 +629,7 @@ The document supports the application and designer attribution. Registration, gr
 
 <a id="development"></a>
 
-## Education & professional development · 学歴と能力開発
+### Education & professional development · 学歴と能力開発
 
 ### Academic direction · 大学での学習
 
@@ -569,30 +683,20 @@ These are professional-development goals. Examination categories and requirement
 
 </details>
 
-<a id="vision"></a>
+<a id="japanese-profile"></a>
 
-## Vision 2030 · 2030年に向けた方向性
-
-My long-term objective is to grow toward an **Enterprise Systems Architect** role, connecting physical operations with reliable software, data and human-guided automation.
-
-The research direction includes cyber-physical systems, cloud-based digital twins, predictive routing, embodied intelligence and Physical AI. The progression starts with explicit requirements and reproducible models, then examines whether increasingly capable systems can address the constraints found in real construction and logistics work.
-
-### Now / 現在
-
-BSIT studies, capstone, PHP/data work and DX documentation
-
-### Next / 次の段階
-
-IPA preparation, professional Japanese, stronger software/security foundations and SITEARM numerical studies
-
-### Longer term / 長期
-
-Systems architecture; OpenUSD/Omniverse simulation; carefully evaluated intelligent assistance
+## Japanese profile / 日本語プロフィール
 
 <details>
-<summary>日本語 / Japanese</summary>
+<summary><strong>日本語 / プロフィール</strong></summary>
 
-長期的には、現場業務と信頼できるソフトウェア、データ、人の判断を支える自動化を結ぶエンタープライズ・システムアーキテクチャを目指しています。要件と再現可能なモデルを基礎に、サイバーフィジカルシステム、クラウド上のデジタルツイン、予測ルーティング、身体性AI、フィジカルAIへ研究を広げる方針です。
+フィリピンで約13年間、建設プロジェクト管理に従事し、資材、人員、機材、現場業務の調整に携わってきました。この経験から、業務上の課題を個別の作業としてだけでなく、供給状況、準備状況、着手前の確認事項が相互に関わる問題として捉えています。
+
+現在は日本を拠点に、University of the East（マニラ）のETEEAP課程で情報技術の学士号取得に取り組み、実装と独立研究を通じてソフトウェア、データ、サイバーセキュリティの技能を高めています。大学で4年間学んだ土木工学の基礎が、この分野転換を支えています。
+
+研究の中心は**建設・物流DX**です。現場の制約をシステム要件、信頼できるデータ、責任の所在が明確な業務フローへと整理します。PHP・MySQL・SQLをシステム開発の軸に、Python、自動化、シミュレーションへ学習と研究を広げています。
+
+**研究課題：** 人の判断と現場の安全を尊重しながら、資材供給、搬入、作業着手条件の連携を情報システムでどう改善できるか。
 
 </details>
 
@@ -621,7 +725,7 @@ I bring field experience, attention to operational dependencies and a commitment
 
 JERICHO ONG
 
-From physical infrastructure to digital systems.
+From physical infrastructure to secure intelligent systems.
 
 CONSTRUCTION · LOGISTICS · SOFTWARE · RESEARCH
 
