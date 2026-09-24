@@ -1,0 +1,27 @@
+# Local editorial snapshots and review notes. Never force-add these paths.
+/.private/
+/.preview/
+
+# Credentials and personal configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+.npmrc
+
+# Editor, OS and generated files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+node_modules/
+__pycache__/
+*.log
+*.tmp
+*.bak

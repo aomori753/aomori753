@@ -1,0 +1,18 @@
+{
+  "sourceName": "JerichoOng-Portfolio",
+  "reviewedOn": "2026-09-24",
+  "hashAlgorithm": "sha256",
+  "normalization": "LF",
+  "purpose": "Editorial review baseline. Source changes require a semantic review; hashes do not verify claims or copy portfolio content.",
+  "sources": {
+    "PROFILE_MASTER.md": "7a9dce334055a69700a71f91c2fb6f275c06aabe9aea2e55db223913e48135b5",
+    "docs/CONTENT_PROVENANCE.md": "a3edfc50d9c99c2945c2104a351e76423174a20aac1832213c454c31cca7b45c",
+    "src/content/profile.ts": "4ea7722daf20793d6acbc4ab230570a482e6075abbe6fea7df6396d60db4051b",
+    "src/content/projects.ts": "cccae3dde6dd34226276ed86bcc87068150f4ebc3459b26e35ba7413cc46125f",
+    "src/content/roadmap.ts": "3058bc97747d5ca2cace1dbabafe87035e5b01ca9d5c7131ffc6e5bc0864a585",
+    "src/content/toolkit.ts": "8b63b460b296096460ff1dc24245e7449e32507534c465c73eb31dac34fffdc7",
+    "src/content/sitearm.ts": "0fee76957ad3ba0d62b1ea28fc348589d6e1cb14cd865a4d3e2909122fb91735",
+    "src/content/domains.ts": "abbd57d00aca4821c89f6e9b007ce20bc9ff12b7d4d0ae442cf10e2461b44e45",
+    "src/content/lab.ts": "d4b0a0a79614507db53ab6dc834a54e06084319598ab11752bd85820260a204d"
+  }
+}
