@@ -6,22 +6,30 @@ This repository publishes Jericho Ong's GitHub profile. The README is the public
 
 ```text
 README.md                         Public English/Japanese profile
+AGENTS.md                         Content, scope and release instructions
 SECURITY.md                       Private reporting and publication boundaries
 assets/
-  profile-header.svg              Original, self-contained profile banner
+  brand/                          Theme-aware header and PNG fallback
+  projects/                       Original conceptual project illustrations
+  profile-header.svg              Preserved earlier profile banner
   patent-publication.png          Preserved IPOPHL publication image
 docs/
   profile-maintenance.md          Editorial and synchronization workflow
   profile-sync.json               Reviewed portfolio source fingerprints
+  rebrand/                        Presentation decisions and verification
 scripts/
   check-profile.mjs              Local content, asset and publication checks
+  check-rebrand.py                Frozen rendered-copy comparison
 .github/workflows/
   profile-check.yml              Automated public-file checks
 .gitattributes                    Consistent text and binary handling
 .gitignore                        Excluded local files and credentials
+REBRAND_CHANGE_RECORD_*.txt        Public-safe local review change record
 ```
 
 Keep public supporting material small. Private evidence, raw identity documents, employer records, original personal photographs and unpublished research do not belong in the tracked tree. Local editorial snapshots and preview output are excluded from Git; exclusion is not encryption or access control.
+
+The 25 September 2026 presentation candidate is documented in [rebrand/design.md](rebrand/design.md) and [rebrand/verification.md](rebrand/verification.md). Its exact README baseline and local preview stay under ignored `.rebrand-local/`. The root change record records the local candidate, not a remote release. The professional-copy review date remains unchanged.
 
 ## Relationship to JerichoOng-Portfolio
 
@@ -34,7 +42,7 @@ GitHub retains the earlier profile's additional subjects: advanced examination i
 ### Update workflow
 
 1. Review the changed portfolio content and its provenance. Confirm which facts are approved for public disclosure.
-2. Update the corresponding English and Japanese README sections together. Keep degree progress, course records, examination goals and project status consistent.
+2. Obtain owner approval before changing professional wording. For approved factual updates, update the corresponding English and Japanese README sections together. Keep degree progress, course records, examination goals and project status consistent. Presentation-only work must retain the exact copy and pass the rendered-content comparison.
 3. Inspect new assets and links. Add a live portfolio or project link only after the destination is available and approved for publication.
 4. Run the profile check with Node.js 22 or later and Git:
 
@@ -46,14 +54,14 @@ GitHub retains the earlier profile's additional subjects: advanced examination i
 5. If the portfolio comparison reports changed source files, review the differences before updating `profile-sync.json`. Fingerprints use SHA-256 over UTF-8 text after normalizing CRLF to LF. Matching fingerprints identify the reviewed source snapshot; they do not prove factual accuracy or translation quality.
 6. Preview the README at desktop and narrow widths, expand the disclosures, inspect both languages and review the exact staged diff before publication.
 
-The local comparison is read-only. CI checks this public repository independently; it does not require access to the portfolio, private files or credentials. Neither check rewrites professional claims, publishes the profile, or changes another repository. The portfolio's existing GitHub cache refresh remains a separate read-only evidence import.
+The local comparison is read-only. Run the broader `--portfolio` comparison only when that source-reading scope is authorized; it was not rerun for the presentation-only rebrand, whose reference scope is limited to approved public content and brand assets. CI checks this public repository independently; it does not require access to the portfolio, private files or credentials. Neither check rewrites professional claims, publishes the profile, or changes another repository. The portfolio's existing GitHub cache refresh remains a separate read-only evidence import.
 
 ## Visual and editorial conventions
 
 - Use clear research questions, methods, evidence and limitations. Academic titles and earned credentials require an established basis.
 - Keep PHP/MySQL/SQL visible as the core systems toolkit. Label the portfolio's frontend technologies by their actual context.
-- Keep existing subjects represented when editing; improve wording and move lengthy supporting text into native disclosures where useful.
-- Use natural English and Japanese with equivalent meaning. Use stable section anchors for navigation.
+- Keep existing subjects represented when editing; move lengthy supporting text into native disclosures where useful. Do not rewrite wording during a presentation-only task.
+- Preserve both languages and their current claims. Any substantive translation or wording improvement needs owner approval. Use stable section anchors for navigation.
 - Host profile images locally. The banner uses the portfolio's graphite and blue palette and contains no external fonts, scripts or network references.
 - Preserve the industrial-design publication as supplied. The existing filename is retained so earlier links continue to work.
 - Use LinkedIn and GitHub as the public contact routes. Publish personal contact details only when specifically intended for that purpose.

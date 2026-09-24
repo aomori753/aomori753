@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="sitearm-dark-title sitearm-dark-desc">
+  <title id="sitearm-dark-title">SITEARM wearable assistance concept illustration</title>
+  <desc id="sitearm-dark-desc">Original schematic of a human upper limb with distinct proposed torso, upper-arm and forearm support interfaces, plus an abstract interface detail. Geometry is illustrative and does not establish validated mechanics, dimensions or assistance performance.</desc>
+  <defs>
+    <linearGradient id="sitearm-dark-ground" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101725"/>
+      <stop offset="1" stop-color="#090d16"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="1198" height="398" rx="14" fill="url(#sitearm-dark-ground)" stroke="#263247" stroke-width="2"/>
+
+  <g fill="none" stroke="#34435b" stroke-width="1" opacity="0.35">
+    <path d="M67 95H1133M67 200H1133M67 305H1133M184 54V348M391 54V348M598 54V348M805 54V348M1012 54V348"/>
+    <path d="M321 348A251 251 0 0 1 756 101M378 348A194 194 0 0 1 707 143" stroke-dasharray="4 9"/>
+  </g>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M328 332C333 287 333 260 344 222C351 197 368 178 397 167L444 160C472 171 489 190 512 214L574 271C583 279 594 282 606 280L755 257L777 242L794 244L805 258L794 275L768 281L609 308C584 312 565 305 548 290L473 228L478 345" fill="#142033" stroke="#9aacc6" stroke-width="3.5"/>
+    <path d="M402 167V145C376 138 366 118 370 92C373 66 391 50 416 50C445 50 460 69 460 95V111L471 126L459 132V145H443V160" fill="#1d293c" stroke="#9aacc6" stroke-width="3.5"/>
+    <path d="M396 98C409 90 421 88 435 92" stroke="#34435b" stroke-width="2.5"/>
+    <path d="M386 195C396 240 398 285 391 345" stroke="#34435b" stroke-width="3"/>
+
+    <path d="M343 221L365 206L386 218L378 295L350 309L333 293Z" fill="#1d293c" stroke="#93a9ff" stroke-width="3"/>
+    <path d="M352 234L366 226L361 279L347 288Z" fill="#101725" stroke="#9aacc6" stroke-width="2.5"/>
+    <path d="M363 206L412 175L453 170L469 191L439 202L407 201L379 241" fill="#293a53" stroke="#93a9ff" stroke-width="3"/>
+    <path d="M442 183L574 292L597 302L757 273L752 256L602 282L587 279L454 167Z" fill="#293a53" stroke="#93a9ff" stroke-width="3.5"/>
+    <path d="M454 182L579 286L596 292L748 265" stroke="#9aacc6" stroke-width="2.5"/>
+    <circle cx="446" cy="183" r="19" fill="#101725" stroke="#93a9ff" stroke-width="4"/>
+    <circle cx="446" cy="183" r="6" fill="#4668e7" stroke="none"/>
+    <circle cx="589" cy="291" r="18" fill="#101725" stroke="#93a9ff" stroke-width="4"/>
+    <circle cx="589" cy="291" r="6" fill="#4668e7" stroke="none"/>
+    <path d="M492 210L515 190L550 225L526 244Z" fill="#1d293c" stroke="#9aacc6" stroke-width="3"/>
+    <path d="M500 217L523 198M519 236L542 217" stroke="#93a9ff" stroke-width="3"/>
+    <path d="M686 259L691 297L721 292L716 254Z" fill="#1d293c" stroke="#9aacc6" stroke-width="3"/>
+    <path d="M694 258L700 294M708 256L714 292" stroke="#93a9ff" stroke-width="3"/>
+
+    <path d="M694 230L847 149H912" stroke="#93a9ff" stroke-width="2" stroke-dasharray="4 8" opacity="0.7"/>
+    <circle cx="704" cy="272" r="40" stroke="#93a9ff" stroke-width="2" opacity="0.65"/>
+    <path d="M928 112L989 82L1050 112L989 143Z" fill="#293a53" stroke="#9aacc6" stroke-width="3"/>
+    <path d="M928 112V132L989 163V143ZM989 143L1050 112V132L989 163" fill="#142033" stroke="#9aacc6" stroke-width="3"/>
+    <path d="M940 163L989 139L1038 163L989 188Z" fill="#101725" stroke="#93a9ff" stroke-width="3"/>
+    <path d="M940 163V183L989 208V188ZM989 188L1038 163V183L989 208" fill="#1d293c" stroke="#93a9ff" stroke-width="3"/>
+    <path d="M952 214L989 195L1026 214L989 233Z" fill="#293a53" stroke="#9aacc6" stroke-width="3"/>
+    <path d="M952 214V230L989 249V233ZM989 233L1026 214V230L989 249" fill="#142033" stroke="#9aacc6" stroke-width="3"/>
+    <path d="M989 65V52M989 274V261" stroke="#34435b" stroke-width="2.5"/>
+    <path d="M259 345H501" stroke="#34435b" stroke-width="2.5"/>
+  </g>
+</svg>

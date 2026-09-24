@@ -1,6 +1,7 @@
 # Local editorial snapshots and review notes. Never force-add these paths.
 /.private/
 /.preview/
+/.rebrand-local/
 
 # Credentials and personal configuration
 .env

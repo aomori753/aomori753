@@ -7,9 +7,15 @@ import { fileURLToPath } from "node:url";
 // Read-only checks for this small, deliberately curated public repository.
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const allowed = new Set([
-  "README.md", "SECURITY.md", ".gitignore", ".gitattributes",
+  "README.md", "AGENTS.md", "SECURITY.md", ".gitignore", ".gitattributes",
   "assets/.keep", "assets/patent-publication.png", "assets/profile-header.svg",
+  "assets/brand/header-dark.svg", "assets/brand/header-light.svg", "assets/brand/header-fallback.png",
+  "assets/projects/construction-logistics-concept-dark.svg", "assets/projects/construction-logistics-concept-light.svg",
+  "assets/projects/eapa-concept-dark.svg", "assets/projects/eapa-concept-light.svg",
+  "assets/projects/sitearm-concept-dark.svg", "assets/projects/sitearm-concept-light.svg",
   "docs/profile-maintenance.md", "docs/profile-sync.json",
+  "docs/rebrand/design.md", "docs/rebrand/verification.md",
+  "REBRAND_CHANGE_RECORD_20260925-004105.txt", "scripts/check-rebrand.py",
   "scripts/check-profile.mjs", ".github/workflows/profile-check.yml",
 ]);
 const sourceFiles = [
@@ -44,8 +50,10 @@ const safeName = (name) => {
 const fail = (file, message) => problems.push(`${safeName(file)}: ${message}`);
 const readable = new Map();
 
-function markupOnly(value) {
-  return value.replace(/<!--[\s\S]*?-->/g, "").replace(/^(`{3,}|~{3,})[^\n]*\n[\s\S]*?^\1\s*$/gm, "");
+function markupOnly(value, omitInlineCode = false) {
+  const text = value.replace(/<!--[\s\S]*?-->/g, "")
+    .replace(/^ {0,3}(`{3,}|~{3,})[^\n]*\n[\s\S]*?^ {0,3}\1\s*$/gm, "");
+  return omitInlineCode ? text.replace(/(`+)([\s\S]*?)\1(?!`)/g, "") : text;
 }
 
 function anchors(value, file) {
@@ -68,7 +76,7 @@ function anchors(value, file) {
 
 function checkDetails(text, file) {
   const stack = [];
-  for (const match of markupOnly(text).matchAll(/<\s*(\/?)\s*(details|summary)\b[^>]*>/gi)) {
+  for (const match of markupOnly(text, true).matchAll(/<\s*(\/?)\s*(details|summary)\b[^>]*>/gi)) {
     const closing = Boolean(match[1]);
     const tag = match[2].toLowerCase();
     const parent = stack.at(-1);
@@ -115,9 +123,89 @@ function checkDestination(raw, file, image = false) {
   }
 }
 
+function attributes(tag, file) {
+  const result = new Map();
+  const body = tag.replace(/^<\/?[\w:-]+\b/, "").replace(/\/?\s*>$/, "");
+  const expression = /([\w:.-]+)\s*=\s*(?:"([^"]*)"|'([^']*)'|([^\s"'=<>`]+))/g;
+  let end = 0;
+  for (const match of body.matchAll(expression)) {
+    if (body.slice(end, match.index).trim()) fail(file, "Malformed or unsupported HTML/XML attribute.");
+    const name = match[1].toLowerCase();
+    if (result.has(name)) fail(file, "Duplicate HTML/XML attribute.");
+    result.set(name, match[2] ?? match[3] ?? match[4]);
+    end = match.index + match[0].length;
+  }
+  if (body.slice(end).trim()) fail(file, "Malformed or unsupported HTML/XML attribute.");
+  return result;
+}
+
+function checkPictures(text, file) {
+  let picture;
+  let previousEnd = 0;
+  for (const match of text.matchAll(/<\s*(\/?)\s*([a-z][a-z\d]*)\b[^>]*>/gi)) {
+    const closing = Boolean(match[1]);
+    const tag = match[2].toLowerCase();
+    if (picture && text.slice(previousEnd, match.index).trim()) {
+      fail(file, "Picture must contain only source elements and one fallback image.");
+    }
+    previousEnd = match.index + match[0].length;
+    if (tag === "picture") {
+      if (closing) {
+        if (!picture) { fail(file, "Unbalanced picture tags."); continue; }
+        if (picture.images !== 1 || picture.media.size !== 2) {
+          fail(file, "Each picture needs dark/light sources and exactly one fallback image.");
+        }
+        if (picture.brand && !/\.png$/.test(picture.fallback)) {
+          fail(file, "Critical header artwork needs a PNG fallback.");
+        }
+        picture = undefined;
+      } else {
+        if (picture || /\/\s*>$/.test(match[0])) fail(file, "Pictures cannot be nested or self-closing.");
+        if (attributes(match[0], file).size) fail(file, "Picture layout must use native GitHub rendering.");
+        picture = { images: 0, media: new Set(), brand: false, fallback: "" };
+      }
+      continue;
+    }
+    if (tag === "source") {
+      if (closing || !picture) { fail(file, "Source must be a void element directly inside picture."); continue; }
+      if (picture.images) fail(file, "Picture sources must precede the fallback image.");
+      const attrs = attributes(match[0], file);
+      if ([...attrs.keys()].some((name) => !["media", "srcset", "type"].includes(name))) {
+        fail(file, "Picture source has unsupported attributes.");
+      }
+      const media = (attrs.get("media") ?? "").replace(/\s+/g, "");
+      if (!/^\(prefers-color-scheme:(?:dark|light)\)$/.test(media) || picture.media.has(media)) {
+        fail(file, "Picture sources need distinct dark and light color-scheme queries.");
+      }
+      picture.media.add(media);
+      const source = attrs.get("srcset") ?? "";
+      if (source.includes("assets/brand/")) picture.brand = true;
+      if (!source || /[\s,?#]/.test(source) || !/\.(?:svg|png)$/.test(source)) {
+        fail(file, "Source srcset must name one local SVG or PNG without descriptors or query parameters.");
+      } else checkDestination(source, file, true);
+      if (attrs.has("type") && !["image/svg+xml", "image/png"].includes(attrs.get("type"))) {
+        fail(file, "Unsupported picture source image type.");
+      }
+      continue;
+    }
+    if (picture && tag !== "img") fail(file, "Only source and img elements may appear inside picture.");
+    if (tag === "img" && picture) {
+      if (closing) fail(file, "Fallback img must be a void element.");
+      picture.images += 1;
+      const attrs = attributes(match[0], file);
+      picture.fallback = attrs.get("src") ?? "";
+      if (!/\.(?:png|svg)$/.test(picture.fallback) || !attrs.has("alt")) {
+        fail(file, "Picture fallback must be a local SVG or PNG with an alt attribute.");
+      }
+    }
+  }
+  if (picture) fail(file, "Unclosed picture element.");
+}
+
 function checkMarkdown(value, file) {
-  const text = markupOnly(value);
+  const text = markupOnly(value, true);
   checkDetails(value, file);
+  checkPictures(text, file);
   for (const match of text.matchAll(/(!?)\[[^\]\n]*\]\(\s*(?:<([^>]+)>|([^\s)]+))(?:\s+["'][^"']*["'])?\s*\)/g)) {
     checkDestination(match[2] ?? match[3], file, Boolean(match[1]));
   }
@@ -135,9 +223,13 @@ function checkMarkdown(value, file) {
     for (const match of tag[0].matchAll(/\b(href|src)\s*=\s*(?:"([^"]*)"|'([^']*)'|([^\s>]+))/gi)) {
       checkDestination(match[2] ?? match[3] ?? match[4], file, match[1].toLowerCase() === "src");
     }
+    if (/\b(?:on[a-z]+|style|class)\s*=/i.test(tag[0]) ||
+        (tag[1].toLowerCase() !== "source" && /\bsrcset\s*=/i.test(tag[0]))) {
+      fail(file, "Event handlers, custom CSS and non-picture alternate sources are not permitted.");
+    }
   }
-  if (/<\s*(?:script|iframe|object|embed|source)\b|\bsrcset\s*=|\bon[a-z]+\s*=/i.test(text)) {
-    fail(file, "Active or alternate-source HTML is not permitted.");
+  if (/<\s*(?:script|style|iframe|object|embed|link|meta|base|canvas|svg|video|audio|form|input|button|small|sub)\b/i.test(text)) {
+    fail(file, "Active HTML, custom layout or reduced-size prose is not permitted.");
   }
   if (/url\(\s*["']?(?!#)|(?:readme-typing-svg|github-readme-stats|komarev\.com|shields\.io)/i.test(text)) {
     fail(file, "Remote image, badge or tracking service reference requires removal.");
@@ -145,12 +237,80 @@ function checkMarkdown(value, file) {
 }
 
 function checkSvg(value, file) {
-  if (/<\s*(?:script|foreignObject)\b|\bon[a-z]+\s*=|<!ENTITY|<!DOCTYPE|@import/i.test(value)) {
+  if (/<\s*(?:script|style|foreignObject)\b|\b(?:on[a-z]+|style|class)\s*=|<!ENTITY|<!DOCTYPE|@import/i.test(value)) {
     fail(file, "SVG contains active or externally resolved content.");
   }
   for (const match of value.matchAll(/\b(?:href|src)\s*=\s*["']([^"']*)["']|url\(\s*["']?([^\s)'"\s]+)/gi)) {
     if (!(match[1] ?? match[2]).startsWith("#")) fail(file, "SVG references a nonlocal resource.");
   }
+  const legacy = file === "assets/profile-header.svg";
+  const permitted = new Set([
+    "svg", "title", "desc", "defs", "g", "path", "rect", "circle", "ellipse",
+    "line", "polyline", "polygon", "linearGradient", "radialGradient", "stop", "clipPath",
+    ...(legacy ? ["text"] : []),
+  ]);
+  const text = value.replace(/<!--[\s\S]*?-->/g, "").replace(/^\s*<\?xml\s[^?]*\?>/, "");
+  const stack = [];
+  let rootAttrs;
+  let roots = 0;
+  for (const match of text.matchAll(/<(\/?)\s*([\w:.-]+)\b[^>]*>/g)) {
+    const [, closing, tag] = match;
+    if (!permitted.has(tag)) fail(file, "SVG contains unsupported elements; use self-contained geometric artwork.");
+    if (closing) {
+      if (stack.pop() !== tag) fail(file, "SVG elements are unbalanced.");
+      continue;
+    }
+    const attrs = attributes(match[0], file);
+    if (!stack.length) {
+      roots += 1;
+      if (tag !== "svg") fail(file, "SVG needs one outer svg element.");
+      rootAttrs = attrs;
+    }
+    if ([...attrs].some(([name, attribute]) => /\\/.test(attribute) ||
+        (name.startsWith("xmlns") && (name !== "xmlns" || attribute !== "http://www.w3.org/2000/svg")))) {
+      fail(file, "SVG must not use escaped attribute syntax or alternate namespaces.");
+    }
+    if (!/\/\s*>$/.test(match[0])) stack.push(tag);
+  }
+  if (stack.length || roots !== 1 || /<\?/.test(text)) fail(file, "SVG structure is incomplete or unsupported.");
+  const viewBox = (rootAttrs?.get("viewbox") ?? "").trim().split(/[\s,]+/).map(Number);
+  const width = Number(rootAttrs?.get("width"));
+  const height = Number(rootAttrs?.get("height"));
+  if (rootAttrs?.get("xmlns") !== "http://www.w3.org/2000/svg"
+      || viewBox.length !== 4 || !viewBox.every(Number.isFinite) || viewBox[2] <= 0 || viewBox[3] <= 0
+      || !Number.isFinite(width) || !Number.isFinite(height) || width <= 0 || height <= 0
+      || Math.abs(width / height - viewBox[2] / viewBox[3]) > 0.000001) {
+    fail(file, "SVG needs its namespace, positive dimensions and a matching viewBox aspect ratio.");
+  }
+  if (!legacy && rootAttrs?.get("preserveaspectratio") !== "xMidYMid meet") {
+    fail(file, "New SVG artwork must explicitly preserve its aspect ratio.");
+  }
+}
+
+function checkPng(bytes, file) {
+  if (bytes.subarray(0, 8).toString("hex") !== "89504e470d0a1a0a") {
+    return fail(file, "Image does not have a valid PNG signature.");
+  }
+  const permitted = new Set(["IHDR", "PLTE", "IDAT", "IEND", "tRNS", "gAMA", "cHRM", "sRGB", "pHYs", "sBIT"]);
+  let offset = 8;
+  let ended = false;
+  let imageData = false;
+  while (offset + 12 <= bytes.length) {
+    const length = bytes.readUInt32BE(offset);
+    const chunk = bytes.toString("ascii", offset + 4, offset + 8);
+    if (length > bytes.length - offset - 12) return fail(file, "PNG chunk exceeds the image boundary.");
+    if (!permitted.has(chunk)) fail(file, "PNG contains metadata or unsupported chunks; inspect and remove from derived artwork.");
+    if ((offset === 8 && (chunk !== "IHDR" || length !== 13)) || (offset > 8 && chunk === "IHDR")) {
+      fail(file, "PNG header structure is invalid.");
+    }
+    if (chunk === "IDAT") imageData = true;
+    offset += length + 12;
+    if (chunk === "IEND") {
+      ended = length === 0;
+      break;
+    }
+  }
+  if (!ended || !imageData || offset !== bytes.length) fail(file, "PNG is incomplete or has trailing data.");
 }
 
 function checkManifest(portfolioPath) {
@@ -205,8 +365,7 @@ function main() {
         continue;
       }
       if (file.endsWith(".png")) {
-        const signature = readFileSync(target).subarray(0, 8).toString("hex");
-        if (signature !== "89504e470d0a1a0a") fail(file, "Image does not have a valid PNG signature.");
+        checkPng(readFileSync(target), file);
         readable.set(file, "");
       } else {
         readable.set(file, readFileSync(target, "utf8"));

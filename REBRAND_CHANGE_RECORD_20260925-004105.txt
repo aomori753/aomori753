@@ -1,0 +1,168 @@
+JERICHO ONG - GITHUB PROFILE PRESENTATION REBRAND
+Local implementation and review record; UTF-8
+Started: 2026-09-25 00:41:05 JST
+Repository: aomori753/aomori753
+Initial branch: main; initial worktree: clean
+Feature branch: rebrand/profile-20260925
+Baseline HEAD: 3237601592ddd1db00b682f2da9397e2858cafea
+Baseline README SHA-256:
+147e867ad1cf6c1af5db3336daf3bd99cf572d9606040308bb2e47d0540ab917
+Candidate README SHA-256:
+d83e35298ee25411aff99454876cd617d52ec6bca7d3b2454c9512132f7e14d2
+
+STATUS
+The initial local review performed no commit or publication.
+On 25 September 2026 the owner subsequently approved committing and pushing
+this profile rebrand. Repository history, CI and the live profile establish
+the release outcome. This record retains the pre-publication test results.
+Approval does not include pins, sidebar, visibility or website changes.
+
+SCOPE AND BACKUP
+Resolved cwd and Git root matched the requested profile repository.
+All 10 initially tracked files were copied byte-for-byte before changes:
+.rebrand-local/20260925-004105/baseline/
+README backup: .rebrand-local/20260925-004105/baseline/README.md
+The snapshot, inventories, candidate, browser data and previews are ignored.
+No unrelated or private portfolio sources were copied. Only approved public
+brand references were read. No other repository or global setting changed.
+Ignoring a directory is not encryption or access control.
+
+MODIFIED ORIGINAL FILES
+README.md - presentation only; exact professional copy remains.
+.gitignore - excludes /.rebrand-local/.
+.gitattributes - LF handling for Python and text records.
+docs/profile-maintenance.md - updated layout, wording-freeze/release guidance.
+scripts/check-profile.mjs - explicit public paths, safe picture/SVG/PNG checks.
+
+NEW PUBLIC FILES
+AGENTS.md
+scripts/check-rebrand.py
+docs/rebrand/design.md
+docs/rebrand/verification.md
+REBRAND_CHANGE_RECORD_20260925-004105.txt
+assets/brand/header-dark.svg
+assets/brand/header-light.svg
+assets/brand/header-fallback.png
+assets/projects/construction-logistics-concept-dark.svg
+assets/projects/construction-logistics-concept-light.svg
+assets/projects/eapa-concept-dark.svg
+assets/projects/eapa-concept-light.svg
+assets/projects/sitearm-concept-dark.svg
+assets/projects/sitearm-concept-light.svg
+
+PRESERVED FILES
+assets/profile-header.svg and assets/patent-publication.png are unchanged.
+SECURITY.md, docs/profile-sync.json and the existing CI workflow are unchanged.
+No file was deleted or moved out of the public tree.
+
+CONTENT AND STRUCTURAL MOVES
+The inventory preceded candidate edits. All 166 rendered original text blocks,
+15 original link occurrences and 3 old-banner phrases remain: 169/169 units.
+The old tagline is now native opening text. Old all-capital name and thematic
+line are native text in Brand signature. All original numbered titles remain.
+A work index links to existing research and the SITEARM section near the top.
+Six dense tables became vertical stacks with every cell/header preserved.
+Nine adjacent Japanese disclosures were added; 17 disclosures total, no nesting.
+Three clearly captioned Concept illustrations supplement native project records.
+Footer copy remains at normal body size, with its original review date intact.
+22 added/repeated visible segments were manually reviewed: neutral navigation,
+language controls, Concept captions and separators; no professional claims.
+The complete mapping and exact additions stay in the ignored integrity reports.
+
+ACTUAL ASSET SIZES (BYTES)
+assets/brand/header-dark.svg: 3722
+assets/brand/header-light.svg: 3728
+assets/brand/header-fallback.png: 70474
+assets/projects/construction-logistics-concept-dark.svg: 4549
+assets/projects/construction-logistics-concept-light.svg: 4555
+assets/projects/eapa-concept-dark.svg: 4472
+assets/projects/eapa-concept-light.svg: 4478
+assets/projects/sitearm-concept-dark.svg: 4119
+assets/projects/sitearm-concept-light.svg: 4125
+Unchanged assets/profile-header.svg: 2680
+Unchanged assets/patent-publication.png: 120835
+All public media: 227737 bytes. New media: 104222 bytes.
+Header: 1200x300 SVG pair and direct light-art PNG fallback.
+Projects: 1200x400 SVG pairs. No fonts, tracking or external resources.
+
+ACTUAL TESTS AND RESULTS
+PowerShell rendered-copy comparison: PASS, all 169 preservation units.
+GitHub Markdown API: before and after HTTP 200; mode=gfm; unauthenticated.
+GitHub-rendered copy comparison: PASS, zero changed/missing original links/text.
+12 integrity fixtures: PASS, including altered/hidden/alt-only copy rejection.
+25 focused publication-guard fixtures: PASS, including unsafe picture/SVG/PNG.
+Node syntax check: PASS.
+Full public guard: PASS, all 24 approved public files.
+Final local/GitHub-rendered comparisons: PASS, 169/169 and all 15 original links.
+git diff --check: PASS. Final status contains only the 19 task paths.
+git check-ignore: baseline, preview, .private and .preview are excluded.
+Git showed expected line-ending notices for .gitattributes/.gitignore, not errors.
+The staged check caught a redundant final blank line in each new SVG. Removed
+those eight blank lines before committing; no geometry or render changes.
+Installed Edge 153.0.4234.48, isolated headless profile/private pipe:
+  24 before/after screenshots: 360/390/768/900px columns x light/dark/dim.
+  No page-wide overflow or broken images in any combination.
+  Final candidate expanded details: no overflow, nesting or raw markup.
+  Four theme pictures select the correct branch once in all combinations.
+  All eight SVGs and representative mobile compositions visually inspected.
+  Japanese glyphs observed correctly; no essential geometry/text clipping found.
+  All 17 summaries focused and opened via Enter; representative Space close PASS.
+  Local internal targets found; SITEARM anchor click reached the intended section.
+  Images removed: all 169 native text units still present when expanded.
+  200% reflow approximation: 450 CSS px/device scale 2, all themes, no overflow.
+Two focused visual refinements completed. No dependency or browser download.
+
+EXACT LOCAL PREVIEW (RELATIVE TO THIS REPOSITORY ROOT)
+.rebrand-local/20260925-004105/preview/index.html
+Open that file in a browser; it links to before/after and light/dark/dim pages.
+Screenshots: .rebrand-local/20260925-004105/preview/screenshots/
+Browser report: .rebrand-local/20260925-004105/preview/browser-report.json
+Frozen inventory: .rebrand-local/20260925-004105/integrity/baseline-inventory.json
+Final GFM mapping: .rebrand-local/20260925-004105/integrity/final-github.json
+
+REPEATABLE COMMANDS (RUN AT REPOSITORY ROOT)
+node --check scripts/check-profile.mjs
+node scripts/check-profile.mjs
+python scripts/check-rebrand.py --baseline .rebrand-local/20260925-004105/baseline/README.md --candidate README.md --report .rebrand-local/20260925-004105/integrity/final-local.json
+python scripts/check-rebrand.py --baseline .rebrand-local/20260925-004105/baseline/README.md --baseline-html .rebrand-local/20260925-004105/preview/before.gfm.html --candidate README.md --candidate-html .rebrand-local/20260925-004105/preview/after.gfm.html --report .rebrand-local/20260925-004105/integrity/final-github.json
+git diff --check
+git status --short --branch
+Local renderer regeneration (requires installed Edge and authorized API access):
+pwsh -NoLogo -NoProfile -File .rebrand-local/20260925-004105/render-gfm.ps1
+node .rebrand-local/20260925-004105/review.mjs
+Do not reuse stale API fragments after editing the candidate.
+
+LIMITATIONS AND UNRESOLVED ITEMS
+This is authentic API HTML inside approximate native GitHub CSS, not the live
+profile. Local preview rewrites relative asset/doc paths and adapts GitHub's
+user-content anchor prefix; source README/API fragments remain unmodified.
+Actual GitHub outline, application theme settings and final anchors need release QA.
+Real browser-menu 200% zoom remains a manual check; emulation is labelled as such.
+Manual preview artwork follows browser color-scheme preference; automated captures
+explicitly emulated the matching scheme. Actual screenshots are saved locally.
+LinkedIn returned HTTP 999 to unauthenticated checking; unchanged, not called deleted.
+GitHub profile, both research repos, IPA, MLIT, JILS and PPC: HTTP 200/no redirects.
+Link check time: 2026-09-25 00:51:53-00:51:56 JST, unauthenticated HEAD requests.
+No new factual or credential audit was implied by preserving the approved copy.
+Existing broader Japan location/tagline punctuation retained despite the portfolio's
+more specific public location/multiline display. No new live website link invented.
+The broader portfolio fingerprint comparison was not rerun outside authorized scope.
+Signature scans are safeguards, not a guarantee against all possible private data.
+Normal OS/editor/browser application writes outside controllable cache locations
+cannot be ruled out or prevented by this task's instructions.
+
+PUBLICATION APPROVED; FOLLOW-UP CHECKS
+Owner approved commit and push on 25 September 2026. LinkedIn and actual browser
+200% zoom remain manual checks. Rerun checks, inspect exact staged paths and safe
+Git identity, and commit/push only task files. Never stage ignored records.
+After publication, inspect actual GitHub profile themes, narrow layout, bilingual
+disclosures, outline, links and fallback behavior. Pins/sidebar are separate actions.
+
+SAFE ROLLBACK
+Before reverting anything, save subsequent unrelated work in a new ignored snapshot.
+Compare the five modified original files against the timestamped baseline and
+reverse only rebrand hunks after checking for newer edits. Preserve unrelated work.
+Move new task-only files to an ignored local review archive only after checking
+for subsequent edits/references. Keep the ignore rule until local artifacts remain
+safely excluded. A later task commit can be reverted after inspecting intervening
+changes. No reset, clean, history rewrite or force push is needed.

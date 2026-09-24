@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="eapa-light-title eapa-light-desc">
+  <title id="eapa-light-title">Embodied Anticipatory Personal Assistant concept illustration</title>
+  <desc id="eapa-light-desc">Original conceptual sequence showing sensing around physical objects, layered context, a person reviewing a decision, and a proposed action with a feedback path. The drawing represents research ideas, not an implemented product.</desc>
+  <defs>
+    <linearGradient id="eapa-light-ground" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f4f6fb"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="1198" height="398" rx="14" fill="url(#eapa-light-ground)" stroke="#d6dfed" stroke-width="2"/>
+
+  <g fill="none" stroke="#b9c7dc" stroke-width="1" opacity="0.35">
+    <path d="M64 93H1136M64 200H1136M64 307H1136M173 52V347M445 52V347M719 52V347M1013 52V347"/>
+  </g>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M246 200H342M548 200H621M809 200H915" stroke="#405bbe" stroke-width="3.5"/>
+    <path d="M329 193L343 200L329 207M608 193L622 200L608 207M902 193L916 200L902 207" stroke="#405bbe" stroke-width="3.5"/>
+    <path d="M1013 272V324H173V275" stroke="#405bbe" stroke-width="2.5" stroke-dasharray="4 10" opacity="0.65"/>
+    <path d="M165 289L173 274L181 289" stroke="#405bbe" stroke-width="2.5" opacity="0.65"/>
+
+    <path d="M100 154L144 132L187 154L144 176Z" fill="#f8faff" stroke="#52657e" stroke-width="3"/>
+    <path d="M100 154V218L144 240V176ZM144 176L187 154V218L144 240" fill="#e8edf6" stroke="#52657e" stroke-width="3"/>
+    <path d="M160 211L185 198L211 211L186 224Z" fill="#f8faff" stroke="#52657e" stroke-width="2.5"/>
+    <path d="M160 211V242L186 255V224ZM186 224L211 211V242L186 255" fill="#dce3f0" stroke="#52657e" stroke-width="2.5"/>
+    <path d="M168 108A91 91 0 0 1 252 194M171 80A120 120 0 0 1 280 190" stroke="#405bbe" stroke-width="3"/>
+    <circle cx="247" cy="173" r="6" fill="#405bbe" stroke="none"/>
+    <path d="M76 262H118M76 262V220" stroke="#b9c7dc" stroke-width="2.5"/>
+
+    <path d="M358 217L445 174L532 217L445 260Z" fill="#dce3f0" stroke="#52657e" stroke-width="3"/>
+    <path d="M358 185L445 142L532 185L445 228Z" fill="#e8edf6" stroke="#52657e" stroke-width="3"/>
+    <path d="M358 153L445 110L532 153L445 196Z" fill="#f8faff" stroke="#405bbe" stroke-width="3"/>
+    <path d="M397 153L445 129L493 153L445 177Z" fill="#ffffff" stroke="#52657e" stroke-width="2.5"/>
+    <path d="M422 153L445 141L468 153L445 165Z" fill="#4668e7" stroke="none"/>
+    <path d="M445 260V279M393 239V258M497 239V258" stroke="#b9c7dc" stroke-width="2.5"/>
+
+    <circle cx="719" cy="128" r="27" fill="#e8edf6" stroke="#52657e" stroke-width="3"/>
+    <path d="M668 204V185C668 161 686 150 696 149M742 149C752 150 770 161 770 185V204" fill="#dce3f0" stroke="#52657e" stroke-width="3"/>
+    <path d="M649 215L719 181L789 215L719 250Z" fill="#f8faff" stroke="#52657e" stroke-width="3"/>
+    <path d="M649 215V230L719 265V250ZM719 250L789 215V230L719 265" fill="#e8edf6" stroke="#52657e" stroke-width="3"/>
+    <circle cx="719" cy="219" r="16" fill="#ffffff" stroke="#405bbe" stroke-width="3"/>
+    <path d="M704 85C723 79 742 82 758 90" stroke="#b9c7dc" stroke-width="2.5"/>
+    <path d="M695 219H686M752 219H743" stroke="#405bbe" stroke-width="3"/>
+
+    <path d="M941 240L1013 204L1085 240L1013 276Z" fill="#dce3f0" stroke="#52657e" stroke-width="3"/>
+    <path d="M1013 204V149L1056 127" stroke="#405bbe" stroke-width="5"/>
+    <path d="M963 237V175L1001 156" stroke="#52657e" stroke-width="5"/>
+    <circle cx="1013" cy="149" r="10" fill="#ffffff" stroke="#405bbe" stroke-width="3"/>
+    <circle cx="963" cy="237" r="8" fill="#ffffff" stroke="#52657e" stroke-width="3"/>
+    <path d="M1030 118L1056 105L1082 118L1056 131Z" fill="#f8faff" stroke="#52657e" stroke-width="3"/>
+    <path d="M1030 118V148L1056 161V131ZM1056 131L1082 118V148L1056 161" fill="#e8edf6" stroke="#52657e" stroke-width="3"/>
+    <path d="M965 111L991 98L1017 111L991 124Z" stroke="#b9c7dc" stroke-width="2.5" stroke-dasharray="3 6"/>
+    <path d="M965 111V141L991 154L1017 141V111M991 124V154" stroke="#b9c7dc" stroke-width="2.5" stroke-dasharray="3 6"/>
+    <path d="M990 79Q1029 62 1067 82M1054 70L1068 82L1050 83" stroke="#405bbe" stroke-width="2.5"/>
+  </g>
+</svg>

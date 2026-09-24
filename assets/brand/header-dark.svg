@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="header-dark-title header-dark-desc">
+  <title id="header-dark-title">Jericho Ong brand artwork</title>
+  <desc id="header-dark-desc">The approved geometric jo mark beside an original conceptual drawing connecting a warehouse, a delivery vehicle and a digital system. Identity and professional information appear as selectable text in the README.</desc>
+  <defs>
+    <linearGradient id="header-dark-ground" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101725"/>
+      <stop offset="1" stop-color="#090d16"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="1198" height="298" rx="14" fill="url(#header-dark-ground)" stroke="#263247" stroke-width="2"/>
+
+  <g fill="none" stroke="#34435b" stroke-width="1" opacity="0.38">
+    <path d="M392 76H1140M392 150H1140M392 224H1140M466 40V260M614 40V260M762 40V260M910 40V260M1058 40V260"/>
+    <path d="M392 258L800 54M566 258L974 54M740 258L1140 58"/>
+  </g>
+  <g transform="translate(69 57) scale(2.9)">
+    <path d="M24 16v26c0 7-4 10-11 10v-7c3 0 4-1 4-4V16z" fill="#f0f2f7"/>
+    <circle cx="42" cy="34" r="12" fill="none" stroke="#93a9ff" stroke-width="7"/>
+    <circle cx="23" cy="9" r="4" fill="#93a9ff"/>
+  </g>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M314 166H420L490 202H686L754 236H915L995 196H1129" stroke="#93a9ff" stroke-width="3" opacity="0.6"/>
+    <path d="M363 111H447L481 94H622L696 57H984L1039 84" stroke="#93a9ff" stroke-width="2" stroke-dasharray="3 9" opacity="0.6"/>
+    <circle cx="314" cy="166" r="5" fill="#93a9ff" stroke="none"/>
+    <circle cx="1129" cy="196" r="5" fill="#93a9ff" stroke="none"/>
+    <path d="M467 125L551 83L628 121L544 163Z" fill="#293a53" stroke="#9aacc6" stroke-width="2.5"/>
+    <path d="M467 125V188L544 227V163Z" fill="#142033" stroke="#9aacc6" stroke-width="2.5"/>
+    <path d="M544 163L628 121V184L544 227Z" fill="#1d293c" stroke="#9aacc6" stroke-width="2.5"/>
+    <path d="M555 172L611 144V190L555 218Z" fill="#101725" stroke="#93a9ff" stroke-width="2"/>
+    <path d="M563 183L603 163M563 192L603 172M563 201L603 181" stroke="#34435b" stroke-width="2"/>
+    <path d="M478 139L490 145V167L478 161ZM506 153L518 159V181L506 175Z" fill="#293a53" stroke="#9aacc6" stroke-width="1.5"/>
+    <path d="M714 156L778 124L827 149L763 181Z" fill="#293a53" stroke="#9aacc6" stroke-width="2.5"/>
+    <path d="M714 156V192L763 217V181Z" fill="#142033" stroke="#9aacc6" stroke-width="2.5"/>
+    <path d="M763 181L827 149V185L763 217Z" fill="#1d293c" stroke="#9aacc6" stroke-width="2.5"/>
+    <path d="M779 209L831 183L852 193V217L827 230L803 218" fill="#1d293c" stroke="#9aacc6" stroke-width="2.5"/>
+    <path d="M816 192L831 185L844 192V203L831 209L816 201Z" fill="#101725" stroke="#93a9ff" stroke-width="2"/>
+    <ellipse cx="775" cy="216" rx="8" ry="10" fill="#101725" stroke="#9aacc6" stroke-width="3"/>
+    <ellipse cx="835" cy="225" rx="8" ry="10" fill="#101725" stroke="#9aacc6" stroke-width="3"/>
+    <path d="M930 118L1004 81L1082 120L1008 157Z" fill="#293a53" stroke="#9aacc6" stroke-width="2.5"/>
+    <path d="M930 118V159L1008 198V157Z" fill="#142033" stroke="#9aacc6" stroke-width="2.5"/>
+    <path d="M1008 157L1082 120V161L1008 198Z" fill="#1d293c" stroke="#9aacc6" stroke-width="2.5"/>
+    <path d="M950 108L1005 81L1061 109L1007 136Z" fill="#101725" stroke="#93a9ff" stroke-width="2.5"/>
+    <path d="M977 108L1005 94L1034 108L1007 122Z" fill="#4668e7" stroke="none"/>
+    <path d="M946 142L992 165M946 153L980 170M1023 164L1068 142M1023 175L1054 160" stroke="#9aacc6" stroke-width="2.5"/>
+  </g>
+</svg>
