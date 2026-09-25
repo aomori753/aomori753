@@ -1,67 +1,71 @@
-# GitHub profile repository
+# Agent Architecture & Contribution Guidelines
 
-## Current task override — Main Concept V2
+Local-only guidance for the `aomori753/aomori753` profile repository. Keep this file ignored and untracked. Stage reviewed changes for manual review; do not automatically commit or push.
 
-The owner requested a targeted continuation of accepted V2, then the Sentrivela rename, and subsequently explicitly approved commit/push on 25 September 2026. This fresh approval lifts the local-only hold for the reviewed Main Concept/Sentrivela release to this profile repository's default `main` branch. The accepted `README_REBRAND_V2.md` is retained and copied unchanged into `README.md` for release. Preserve earlier recovery snapshots. This does not authorize account settings, another repository or a website deployment; future changes need their own task authority.
+## 1. Repository purpose and architecture
 
-Follow the owner-authorized undated concept in `docs/rebrand/MAIN_CONCEPT.md`. FieldOps project status is now ACTIVE DEVELOPMENT — Architecture & Workflow Design, while its art remains CONCEPT and provider/runtime implementation remains planned. Retain software/data foundations, cybersecurity development limits, complete professional facts and explicit research-horizon labels. Do not introduce a dated future roadmap, predicted job title or unearned expertise. The missing reference image must not be described as inspected. No other repository or future FieldOps directory is in scope.
+This repository presents Jericho Ong's bilingual professional profile and independent research in Construction & Logistics DX, software and data systems, Applied AI and cybersecurity development.
 
-The new frozen source is accepted V2 `6a0ddd15a98fdaee31f55f649ac6d34aaa7fbbef`, candidate SHA-256 `55688619a83628aca497f8f2fd8e60ca6464ebedef2f86681f2a83462d5d390a`, copied under `.rebrand-local/main-concept-v2-20260925/baseline/`. Older V1/V2 comparisons below are historical; do not rewrite their baselines or apply their earlier status rules to the newly authorized concept. Record all explicit wording/status deltas against this new source, render the current candidate and run the public-file checker on both Markdown files.
+- Keep a minimal static repository: standard Markdown, self-contained SVG artwork, necessary PNG images and public-facing developer automation.
+- `README.md` is the single public profile. Internal design notes, prompts, draft profiles, audit reports and approval history belong in private recovery storage.
+- Do not add backend services, analytics, tracking, remote fonts, external runtime dependencies or third-party widgets.
+- Work only in this repository. Other repositories, websites, account settings and private project sources require separate authority.
 
-This is `aomori753/aomori753`, the public GitHub profile repository, not the portfolio website. Keep it a small Markdown-and-assets project. Do not add an application framework, backend, analytics, live widgets or publishing service.
+## 2. Public-facing code and script standards
 
-## Content and scope
+- Use Node.js 22 or newer, built-in modules and Git. Public checks must run on a normal checkout without private baselines, sibling repositories, credentials, network access or dependency installation.
+- Keep each script focused and read-only. Use descriptive functions, comments that explain non-obvious behavior, documented CLI usage, actionable diagnostics and standard exit codes.
+- Do not embed machine-specific absolute paths, audit fingerprints, private data or private repository references. Resolve repository paths relative to the script and reject paths outside the repository or symbolic-link substitutions.
+- Invoke subprocesses with argument arrays, without interpolated shell commands. Never print matched secret values.
+- Validate the exact public file policy, local Markdown links and anchors, native disclosure structure, SVG accessibility/dimensions and selected credential/metadata patterns.
+- Review every new public path before updating the file policy. Never weaken checks or replace frozen recovery evidence to manufacture a passing result.
+- Add focused regression tests for changed behavior, using synthetic inputs. Keep local instructions, script documentation and CI commands consistent.
+- Keep one-off migration, preview and audit helpers private. A retained public tool must have a clear purpose and useful usage documentation.
 
-- Preserve the existing English and Japanese professional wording, qualifications, dates, links and project-status qualifiers unless the owner explicitly approves a substantive correction. A visual rebrand is not permission to rewrite claims.
-- Keep substantive text readable in README.md, directly or in clearly labelled native disclosures. Comments, alt text, artwork and backups do not substitute for readable copy.
-- The current presentation-only baseline is commit `3237601592ddd1db00b682f2da9397e2858cafea`. Its README SHA-256 is `147e867ad1cf6c1af5db3336daf3bd99cf572d9606040308bb2e47d0540ab917`. Do not replace a frozen baseline to make a failing test pass.
-- V2 was prepared separately in `README_REBRAND_V2.md`, then accepted by the owner on 25 September 2026 with explicit approval to commit and push to this profile repository. The accepted candidate is retained and copied into the root README for release. Its historical visual reference is `535c997a0543de05601ccb31b7cf28e8bc15304c`; its frozen current-content source is published V1 `19e9febd78f4d6e7fc892256c9a4e75a50ca37ba`, README SHA-256 `d83e35298ee25411aff99454876cd617d52ec6bca7d3b2454c9512132f7e14d2`.
-- The V2 brief permits new architecture and truthful planned FieldOps AI/Agentic AI content. Four superseded SITEARM English/Japanese evidence paragraphs are explicitly corrected from inspected public numerical-research sources in `docs/rebrand/CONTENT_MAP.md`. Preserve all other still-valid professional text and qualifiers. Do not treat the four corrections as blanket rewriting permission.
-- Record disagreements between approved portfolio content and the README for owner review. Do not silently change statuses or establish another master profile.
-- Work only in this repository. Reading approved public brand references from the sibling portfolio does not authorize modifying it or reading unrelated/private source material. No other-repository changes or account changes without explicit approval.
+## 3. Content integrity and intellectual rigor
 
-## Presentation and assets
+- Preserve approved English and Japanese facts, qualifications, dates, links and status qualifiers. Update both languages together when the owner approves a substantive correction.
+- **Domain foundation:** approximately 13 years of construction project-management experience and operational constraints.
+- **Engineering foundation:** software, relational data models, PHP, MySQL, SQL and operational workflows. Use stronger terms such as production-tested only when specific evidence supports them; do not promote a guideline into a new professional claim.
+- **Active development:** FieldOps AI is **ACTIVE DEVELOPMENT — Architecture & Workflow Design**. Keep **PRIVATE SOURCE** and **CASE STUDY IN DEVELOPMENT** without a private repository link. Its architecture illustration remains **CONCEPT**; provider adapters, demos and runtime integrations remain **PLANNED**.
+- **Research horizon:** exploratory Physical AI, cyber-physical systems, robotics and related study. Do not introduce dated capability promises, predicted job titles or unearned expertise.
+- Retain cybersecurity learning and implementation limits. Use **Sentrivela** for the existing cybersecurity architecture study without changing its verified description or status.
+- Keep essential professional text native, selectable and left-aligned. Label disclosures clearly; do not nest them. Artwork, alt text, comments and backups do not replace readable text.
+- Keep bare Git hashes, checksums, internal change records, machine paths and prompt commentary out of public prose. Store audit evidence privately. Meaningful research/application identifiers, dates, color values, immutable attribution links and workflow security pins may remain where they serve their stated purpose.
+- Record factual disagreements privately for owner review. Do not silently establish another professional narrative.
 
-- Use the shared jo. identity, charcoal/navy, controlled cobalt/periwinkle and restrained technical linework. Keep actual prose in native GitHub typography, left aligned and selectable.
-- Prefer vertical project blocks, clearly labelled conceptual art and adjacent Japanese details. Do not imply that conceptual artwork is a screenshot, validated design or evidence of performance.
-- Use native headings, links, lists, picture and details. No scripts, custom layout CSS, small/sub prose, external fonts or remote images. Avoid nested disclosures.
-- New SVGs must be self-contained artwork with accessible descriptions, explicit dimensions/viewBox and `preserveAspectRatio="xMidYMid meet"`. Safe system-font display lettering is allowed by the V2 brief; keep essential facts and reading-size labels in native text too. No active content, external resources, font downloads or bundled fonts. Provide a PNG fallback for the header and readable mobile variants.
-- Copy only the minimum justified product icons after inspecting their source, individual license and trademark guidance. Retain attribution in `docs/rebrand/ASSET_LICENSES.md`; do not blanket-label every asset CC0 or imply vendor endorsement. Original category symbols need not imitate vendor logos.
-- Preserve original supplied images. Inspect derived assets for private data and metadata. Do not alter the owner’s face, fabricate project screenshots or change the repository license.
-- Keep private baselines, evidence, browser profiles, caches and screenshots under ignored local directories, never the public tree. Git exclusion is not encryption or access control. Never force-add them.
+## 4. Visual assets and design standards
 
-## Verification
+- Retain the jo. identity, charcoal/navy palette, controlled cobalt/periwinkle accents and restrained technical linework. Keep prose in native GitHub typography.
+- SVGs require explicit dimensions, a matching `viewBox`, `preserveAspectRatio="xMidYMid meet"`, and meaningful `<title>` and `<desc>` elements. No scripts, active content, remote resources or downloaded fonts.
+- Provide light/dark artwork, readable mobile headers and the PNG header fallback; verify dimmed presentation as well. Theme behavior must be checked rather than assumed.
+- Label conceptual art accurately. Do not fabricate screenshots, performance evidence or inspection of an unavailable reference.
+- Preserve original supplied images and inspect derived assets for private metadata. Do not alter the owner's face or repository license.
+- Preserve applicable creator credits, licenses, adaptations and trademark guidance in [asset attribution](docs/ASSET_LICENSES.md). Do not imply endorsement or blanket-license every asset as CC0.
 
-Use installed Node.js 22+, Python 3.10+ and PowerShell 7 with `ConvertFrom-Markdown`. No dependency installation is needed for repository checks.
+## 5. Security and privacy safeguards
+
+- Never stage credentials, keys, session cookies, browser profiles, personal records, employer records or private project material.
+- Keep drafts, benchmarks, previews, caches and recovery evidence in ignored local storage or the owner-approved private backup. Ignore rules are not encryption or access control; never force-add private paths.
+- Back up valuable files and verify their copies before removing them from public tracking. Preserve older recovery snapshots unchanged.
+- If an actual secret is found, stop and report only the affected file, secret type, current/historical scope and recommended rotation. Do not print its value.
+
+## 6. Verification and contribution workflow
 
 Run from the repository root:
 
-```powershell
+```sh
 node --check scripts/check-profile.mjs
+node --check scripts/check-profile.test.mjs
+node --test scripts/check-profile.test.mjs
 node scripts/check-profile.mjs
-python scripts/check-rebrand.py --baseline .rebrand-local/20260925-004105/baseline/README.md --candidate README.md --report .rebrand-local/20260925-004105/integrity/final-local.json
 git diff --check
+git diff --cached --check
 git status --short --branch
 ```
 
-The rebrand check intentionally requires the locally preserved baseline and is not a fresh-clone CI requirement. It compares expanded rendered text, occurrence-counted links and prior graphic wording. If the baseline is unavailable, report that limitation; do not invent a PASS or silently select a new baseline. Supply `--baseline-html` and `--candidate-html` only for authentic corresponding renderer output.
+For presentation changes, inspect actual Markdown renders at 360, 390, 768 and 900 pixel reading widths in light/dark/dim appearances, with keyboard disclosures, anchors, images disabled and 200% browser zoom. Keep results private and distinguish actual browser zoom from reflow approximations and local previews from live GitHub.
 
-For V2, first regenerate the before/after local HTML from the matching V1 snapshot and current candidate, then run the local reviewed-delta audit:
+Inspect the exact diff, public file policy, exclusions and commit identity before staging only reviewed task files. Preserve unrelated changes. Do not reset, clean, stash automatically, rewrite history or change global configuration.
 
-```powershell
-python .rebrand-local/v2-20260925-013852/verify-content.py
-```
-
-This local audit checks 181 baseline blocks, four exact evidence corrections, individually named presentation changes and original external destinations. Its reports and rendered HTML remain ignored local evidence. It is not a CI requirement. Do not run the V1 frozen-copy checker against V2 and suppress its legitimate differences. `node scripts/check-profile.mjs` checks both public Markdown files, the exact asset allowlist, anchors, local links, sensitive patterns and safe markup.
-
-Review added labels and structural moves manually. Check actual local renders at 360, 390, 768 and 900 pixel README-column widths, light/dark/dim appearance, keyboard disclosures, anchors, images-disabled usefulness and 200% zoom. A local preview or Markdown API response does not prove the final GitHub profile rendering. See [verification.md](docs/rebrand/verification.md) for the current checks and remaining release gates.
-
-The V2 required matrix is 390/768/900px in light/dark, with dim checked additionally. Use [RENDER_CHECKLIST.md](docs/rebrand/RENDER_CHECKLIST.md) for V2 results and limitations; the lowercase V1 documents are historical records. Distinguish actual native browser zoom from device-scale/reflow approximation. Do not upload a local-only draft for remote rendering without authorization.
-
-## Release control
-
-Inspect the exact diff, public-file allowlist, local exclusions and commit identity before staging only approved task files. Keep existing unrelated changes intact. Do not reset, clean, stash automatically, rewrite history or change global configuration.
-
-No push, merge, deployment, website update, profile/sidebar edit, pin edit, visibility change or external message without owner approval for that action. Pinned repositories and account settings are separate from the README. After approved publication, verify the real profile in GitHub before claiming the release is complete.
-
-The V2 candidate-only hold was lifted by the owner's subsequent acceptance and explicit commit/push request on 25 September 2026. This authorizes the reviewed profile release to this repository's default `main` branch; it does not authorize other repositories, accounts, pins, visibility or website changes. Preserve the candidate and complete V1 snapshot, and follow [PUBLICATION_CHECKLIST.md](docs/rebrand/PUBLICATION_CHECKLIST.md). Future publication still requires its own task authority.
+When commits are explicitly authorized, use focused professional subjects and bodies with Context, Implementation, Constraints and Validation. Split changes only where each intermediate tree remains coherent and passes its checks. Historical approval is not standing authority for a new commit, push, merge, deployment, account edit or external message. After an approved publication, inspect the real GitHub profile before claiming release completion.

@@ -1,8 +1,16 @@
 # Local editorial snapshots and review notes. Never force-add these paths.
+/AGENTS.md
+/docs-private/
+/private/
+/internal/
+/change-records/
 /.private/
 /.preview/
 /.rebrand-local/
 /docs/rebrand/screenshots/
+/docs/profile-sync.json
+*.local.*
+*.private.*
 
 # Credentials and personal configuration
 .env
@@ -24,6 +32,8 @@ Thumbs.db
 desktop.ini
 node_modules/
 __pycache__/
+*.pyc
+coverage/
 *.log
 *.tmp
 *.bak
