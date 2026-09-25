@@ -10,7 +10,11 @@ permissions:
 
 jobs:
   profile:
-    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
     timeout-minutes: 5
     steps:
       - name: Check out public profile
@@ -21,5 +25,13 @@ jobs:
         uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
         with:
           node-version: "22"
+      - name: Check script syntax
+        run: |
+          node --check scripts/check-profile.mjs
+          node --check scripts/check-profile.test.mjs
       - name: Check structure, links and publication hygiene
         run: node scripts/check-profile.mjs
+      - name: Test validation regressions
+        run: node --test scripts/check-profile.test.mjs
+      - name: Check whitespace
+        run: git diff --check
