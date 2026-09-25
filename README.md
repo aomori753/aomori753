@@ -6,7 +6,7 @@
   <img src="assets/brand/header-fallback.png" alt="Jericho Ong — IT and Digital Systems. From physical infrastructure to secure intelligent systems." width="1200">
 </picture>
 
-<p><strong>Jericho Ong · ジェリコ・オング</strong></p>
+# Jericho Ong · ジェリコ・オング
 
 <p>
   <strong>IT &amp; Digital Systems · Construction &amp; Logistics DX</strong><br>
@@ -14,30 +14,75 @@
   日本を拠点に、建設の実務経験をソフトウェア・データ・システム研究へ。
 </p>
 
-<p>
-  <a href="https://github.com/aomori753/construction-logistics-dx-japan">Research / 研究</a> ·
-  <a href="#fieldops">FieldOps AI</a> ·
-  <a href="#projects">Projects / プロジェクト</a> ·
-  <a href="#toolkit">Toolkit / 使用技術</a> ·
-  <a href="#development">Development / 学習と資格目標</a> ·
-  <a href="https://www.linkedin.com/in/jericho-o-52b9b434a/">Connect / お問い合わせ</a>
-</p>
+[Profile / 経歴](#profile) · [Selected work / プロジェクト](#projects) · [FieldOps AI](#fieldops) · [Technical practice / 技術](#toolkit) · [日本語プロフィール](#japanese-profile) · [Contact / 連絡先](#connect)
+
+<a id="profile"></a>
+
+## Profile / プロフィール
+
+I bring approximately **13 years of construction project-management experience in the Philippines** to the study of digital systems. Coordinating materials, people, equipment and site operations taught me to examine the dependencies behind an operational problem: what is available, what is ready, and what must be confirmed before work can proceed.
+
+- **Core systems / 中核技術:** PHP · MySQL · SQL.
+- **Current study / 学習中:** BS Information Technology through ETEEAP, University of the East, Manila — in progress / 情報技術の学士課程で学習中。
+- **Current design work / 設計・開発:** FieldOps AI — architecture and workflow design; provider integrations remain planned / アーキテクチャ・ワークフロー設計。提供元との連携は計画段階。
+
+**Public work / 公開している研究**
+
+- [SITEARM numerical research](https://github.com/aomori753/sitearm-research) — Python models and numerical studies / Pythonによるモデル化と数値研究。
+- [Construction & Logistics DX Japan](https://github.com/aomori753/construction-logistics-dx-japan) — bilingual research documentation and conceptual architecture / 日英の研究文書と概念設計。
+- [Embodied Anticipatory Personal Assistant](https://github.com/aomori753/Embodied-Anticipatory-Personal-Assistant) — research architecture and implementation guidelines / 研究構想と実装指針。
+
+[日本語プロフィール](#japanese-profile) · Complete English background and contribution areas below.
+
+<details>
+<summary>Professional background / English</summary>
+
+Construction operations, logistics and material coordination inform how I examine workforce/equipment dependencies, project readiness, operational constraints, requirements and workflows.
+
+Based in Japan, I am developing my software, data and cybersecurity capabilities through ongoing **BS Information Technology studies at the University of the East, Manila, through ETEEAP**, practical development and independent research. My earlier four years of Civil Engineering university study provide an academic foundation for this transition.
+
+My focus is **construction and logistics digital transformation (DX)**: translating field constraints into system requirements, reliable data and accountable workflows. PHP, MySQL and SQL form the core of my systems toolkit; Python, automation and simulation extend my current learning and research.
+
+> **Research focus:** How can information systems improve coordination between material supply, delivery and workfront readiness while preserving human judgment and operational safety?
+
+</details>
+
+<details>
+<summary>Areas of contribution · 貢献できる領域</summary>
+
+### Areas of contribution · 貢献できる領域
+
+**Focus / 領域** · **Practical contribution / 取り組み**
+
+**Operational requirements / 業務要件**
+
+Map material, crew and equipment dependencies into documented requirements and workflows. / 資材・人員・機材の依存関係を要件と業務フローに整理。
+
+**Software and data / ソフトウェアとデータ**
+
+Develop inventory and ordering concepts, structured records, queries and reporting around construction-supply needs. / 建設資材の業務に即した在庫・発注、データ管理、照会、レポートを検討・実装。
+
+**Research and documentation / 研究と文書化**
+
+Frame research questions, explain assumptions and maintain traceable English/Japanese technical documentation. / 研究課題と仮定を明確にし、変更を追跡できる日英の技術文書を作成。
+
+</details>
 
 <a id="concept"></a>
 
 ## From physical infrastructure to secure intelligent systems
 
-> **Field Operations → Requirements → Software and Data → Secure Digital Systems → Agentic AI → Human-Reviewed Decisions → Cyber-Physical Intelligence**
-
 A professional direction grounded in construction and logistics experience—not a dated career timeline or a claim that every capability is already implemented.
+
+<details>
+<summary>Concept in context / コンセプトの位置づけ</summary>
+
+> **Field Operations → Requirements → Software and Data → Secure Digital Systems → Agentic AI → Human-Reviewed Decisions → Cyber-Physical Intelligence**
 
 **DOMAIN FOUNDATION** · Construction project management and operational constraints.<br>
 **ENGINEERING FOUNDATION** · Software, data and operational workflows.<br>
 **ACTIVE DEVELOPMENT** · Construction and logistics DX, Applied AI, secure automation and bilingual delivery.<br>
 **RESEARCH HORIZON** · Physical AI and cyber-physical intelligence: exploring, not established expertise.
-
-<details>
-<summary>Concept in context / コンセプトの位置づけ</summary>
 
 Physical infrastructure → construction and logistics operations → digital systems → software, data and cloud foundations → cybersecurity and secure automation → applied AI and agentic workflows → secure intelligent systems → cyber-physical systems and Physical AI.
 
@@ -49,27 +94,28 @@ Software and data remain the foundation throughout this direction. Human judgmen
 
 <a id="fieldops"></a>
 
-## FIELDOPS AI
+## FieldOps AI
+
+**Bilingual Agentic Workflow for Construction & Logistics**
+
+**ACTIVE DEVELOPMENT — Architecture & Workflow Design**<br>
+開発中 — アーキテクチャ・ワークフロー設計
+
+**PRIVATE SOURCE · CASE STUDY IN DEVELOPMENT**<br>
+ソース非公開 · 事例紹介を準備中
+
+Applied AI · Technical delivery · FDE-style project<br>
+Architecture illustration: **CONCEPT**.
+
+An architecture-and-workflow design project connecting construction and logistics incidents with bilingual, human-approved operational workflows. “FDE-style” describes the delivery approach being developed, not current FDE employment or completed client delivery. No working runtime or provider integration is claimed.
+
+> Operational incident → bilingual intake → triage → data/tool retrieval → root-cause analysis → action planning → risk review → human approval → bilingual communication → audit and evaluation
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/project-cards/fieldops-ai-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/project-cards/fieldops-ai-light.svg">
   <img src="assets/project-cards/fieldops-ai-light.svg" alt="FieldOps AI — active architecture and workflow design; concept diagram, not a deployed system" width="1200">
 </picture>
-
-**Bilingual Agentic Workflow for Construction & Logistics**
-
-**ACTIVE DEVELOPMENT — Architecture & Workflow Design**
-
-**開発中 — アーキテクチャ・ワークフロー設計**
-
-**APPLIED AI · TECHNICAL DELIVERY · FDE-STYLE PROJECT**
-
-Architecture illustration: **CONCEPT**.
-
-An architecture-and-workflow design project connecting construction and logistics incidents with bilingual, human-approved operational workflows. “FDE-style” describes the delivery approach being developed, not current FDE employment or completed client delivery. No working runtime or provider integration is claimed.
-
-> Operational incident → bilingual intake → triage → data/tool retrieval → root-cause analysis → action planning → risk review → human approval → bilingual communication → audit and evaluation
 
 <details>
 <summary>Planned architecture and engineering evidence / 計画している構成と成果物</summary>
@@ -110,17 +156,17 @@ These are intended deliverables, not existing integrations, live agents, benchma
 
 <a id="construction-supply"></a>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/project-cards/construction-supply-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/project-cards/construction-supply-light.svg">
-  <img src="assets/project-cards/construction-supply-light.svg" alt="Construction Supply Inventory and Ordering — ongoing academic capstone; concept illustration" width="1200">
-</picture>
-
 ### Construction Supply Inventory & Ordering
 
 **Academic capstone / 卒業研究**
 
 The capstone is part of my ongoing academic work.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/project-cards/construction-supply-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/project-cards/construction-supply-light.svg">
+  <img src="assets/project-cards/construction-supply-light.svg" alt="Construction Supply Inventory and Ordering — ongoing academic capstone; concept illustration" width="1200">
+</picture>
 
 <details>
 <summary>Capstone brief / English</summary>
@@ -140,21 +186,19 @@ Connects construction-domain experience with information systems through invento
 
 <a id="sitearm"></a>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/project-cards/sitearm-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/project-cards/sitearm-light.svg">
-  <img src="assets/project-cards/sitearm-light.svg" alt="SITEARM — concept-stage wearable assistance research; conceptual illustration, not a tested device" width="1200">
-</picture>
-
 ### SITEARM · Wearable robotic assistance
 
 **Concept stage · Simulation-first research plan / コンセプト段階・シミュレーション中心の研究計画**
-
 
 [Public numerical research](https://github.com/aomori753/sitearm-research) · Python · NumPy · Matplotlib · PyYAML
 
 **Current evidence — public repository reviewed 25 September 2026:** The repository contains synthetic planar kinematics, workspace/path studies and static external wrist-load calculations. These are numerical research artifacts, not a physically validated wearable or demonstrated assistance. Physical assistance and ergonomic outcomes remain research tasks.
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/project-cards/sitearm-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/project-cards/sitearm-light.svg">
+  <img src="assets/project-cards/sitearm-light.svg" alt="SITEARM — concept-stage wearable assistance research; conceptual illustration, not a tested device" width="1200">
+</picture>
 
 <details>
 <summary>Research scope / English</summary>
@@ -231,17 +275,17 @@ The initial scope focuses on numerical models; ROS 2, Gazebo, AI/ML, databases, 
 
 <a id="construction-dx"></a>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/project-cards/construction-logistics-dx-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/project-cards/construction-logistics-dx-light.svg">
-  <img src="assets/project-cards/construction-logistics-dx-light.svg" alt="Construction and Logistics DX Japan — independent research; conceptual system diagram" width="1200">
-</picture>
-
 ### [Construction & Logistics DX Japan](https://github.com/aomori753/construction-logistics-dx-japan)
 
 **Independent research · Bilingual systems framework / 独立研究・日英のシステム設計フレームワーク**
 
 **Evidence:** Public research documentation and conceptual architecture.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/project-cards/construction-logistics-dx-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/project-cards/construction-logistics-dx-light.svg">
+  <img src="assets/project-cards/construction-logistics-dx-light.svg" alt="Construction and Logistics DX Japan — independent research; conceptual system diagram" width="1200">
+</picture>
 
 <details>
 <summary>Research scope / English</summary>
@@ -259,17 +303,17 @@ Examines the construction site as a logistics node: connecting material availabi
 
 <a id="eapa"></a>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/project-cards/eapa-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/project-cards/eapa-light.svg">
-  <img src="assets/project-cards/eapa-light.svg" alt="Embodied Anticipatory Personal Assistant — research architecture; conceptual workflow" width="1200">
-</picture>
-
 ### [Embodied Anticipatory Personal Assistant](https://github.com/aomori753/Embodied-Anticipatory-Personal-Assistant)
 
 **Research architecture · Human–system interaction / 研究構想・人とシステムの協働**
 
 **Evidence:** Public architecture and implementation guidelines.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/project-cards/eapa-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/project-cards/eapa-light.svg">
+  <img src="assets/project-cards/eapa-light.svg" alt="Embodied Anticipatory Personal Assistant — research architecture; conceptual workflow" width="1200">
+</picture>
 
 <details>
 <summary>Research scope / English</summary>
@@ -292,50 +336,6 @@ Investigates a perception–prediction–action architecture for assistance that
 - **Bilingual portfolio & Decision Systems Lab — local portfolio build.** An interactive, rule-based exercise examines delayed deliveries, inventory discrepancies and unavailable equipment. Visitors review conditions and choose an illustrative response. / 日英ポートフォリオをローカルで制作。搬入遅延、在庫差異、機材の使用不可を題材に、条件の確認と対応の選択を体験できる演習を含みます。
 
 Public repository or demo links will accompany these entries when available.
-
-</details>
-
-<a id="profile"></a>
-
-## Domain foundation / 建設・物流の経験
-
-Construction operations, logistics and material coordination inform how I examine workforce/equipment dependencies, project readiness, operational constraints, requirements and workflows.
-
-[日本語プロフィール](#japanese-profile) · Complete English background and contribution areas below.
-
-<details>
-<summary>Professional background / English</summary>
-
-I bring approximately **13 years of construction project-management experience in the Philippines** to the study of digital systems. Coordinating materials, people, equipment and site operations taught me to examine the dependencies behind an operational problem: what is available, what is ready, and what must be confirmed before work can proceed.
-
-Based in Japan, I am developing my software, data and cybersecurity capabilities through ongoing **BS Information Technology studies at the University of the East, Manila, through ETEEAP**, practical development and independent research. My earlier four years of Civil Engineering university study provide an academic foundation for this transition.
-
-My focus is **construction and logistics digital transformation (DX)**: translating field constraints into system requirements, reliable data and accountable workflows. PHP, MySQL and SQL form the core of my systems toolkit; Python, automation and simulation extend my current learning and research.
-
-> **Research focus:** How can information systems improve coordination between material supply, delivery and workfront readiness while preserving human judgment and operational safety?
-
-</details>
-
-
-
-<details>
-<summary>Areas of contribution · 貢献できる領域</summary>
-
-### Areas of contribution · 貢献できる領域
-
-**Focus / 領域** · **Practical contribution / 取り組み**
-
-**Operational requirements / 業務要件**
-
-Map material, crew and equipment dependencies into documented requirements and workflows. / 資材・人員・機材の依存関係を要件と業務フローに整理。
-
-**Software and data / ソフトウェアとデータ**
-
-Develop inventory and ordering concepts, structured records, queries and reporting around construction-supply needs. / 建設資材の業務に即した在庫・発注、データ管理、照会、レポートを検討・実装。
-
-**Research and documentation / 研究と文書化**
-
-Frame research questions, explain assumptions and maintain traceable English/Japanese technical documentation. / 研究課題と仮定を明確にし、変更を追跡できる日英の技術文書を作成。
 
 </details>
 
@@ -455,7 +455,6 @@ These sources inform learning and research context. References do not imply affi
 
 </details>
 
-
 ### Software and data
 
 <p><img src="assets/icons/php.svg" alt="PHP" width="40" height="40"> <img src="assets/icons/sql.svg" alt="Original database category symbol" width="40" height="40"> <img src="assets/icons/typescript.svg" alt="TypeScript" width="40" height="40"> <img src="assets/icons/code.svg" alt="Original programming category symbol" width="40" height="40"></p>
@@ -491,7 +490,6 @@ These sources inform learning and research context. References do not imply affi
 **Workflow:** Define requirements → draft and implement → review assumptions → test and document. Notion supports planning and research notes; Markdown and GitHub preserve the technical record. AI-assisted outputs are reviewed against requirements, source material and tests.
 
 調査・技術文書とコーディング・試作にAIツールを活用しています。要件の定義、草案・実装、前提の確認、検証・記録の順で進め、出力を参照資料とテストに照らして確認します。ツールの使用と専門資格・習熟度は区別しています。
-
 
 ### Current learning
 
@@ -546,7 +544,7 @@ OpenUSD · NVIDIA Omniverse · Isaac Sim — planned scene-composition and simul
 
 </details>
 
-[Icon credits and usage notes](docs/rebrand/ASSET_LICENSES.md)
+[Icon credits and usage notes](docs/ASSET_LICENSES.md)
 
 <a id="vision"></a>
 
@@ -606,7 +604,7 @@ Systems architecture; OpenUSD/Omniverse simulation; carefully evaluated intellig
 
 <a id="design"></a>
 
-### COMPLETED RECORD · Industrial design · 工業デザイン
+### Industrial design publication · 工業デザインの公報
 
 **ILLUMINATION CACHE · IPOPHL application 3/2014/000474**
 
@@ -618,7 +616,7 @@ The accompanying **Industrial Design Publication**, released on **28 May 2014**,
 <summary><strong>View the publication / 公報を見る</strong></summary>
 
 <p>
-  <img src="assets/patent-publication.png" alt="IPOPHL industrial design publication for ILLUMINATION CACHE, application 3/2014/000474, listing Jericho T. Ong as designer" width="600">
+  <img src="assets/selected-public-images/industrial-design-publication.png" alt="IPOPHL industrial design publication for ILLUMINATION CACHE, application 3/2014/000474, listing Jericho T. Ong as designer" width="600">
 </p>
 
 The document supports the application and designer attribution. Registration, grant and current legal status are not established by this publication alone.
@@ -647,7 +645,7 @@ Google AI Essentials、AWS Fundamentals、PMIのプロジェクトマネジャ�
 
 </details>
 
-### NEXT · Examination and language roadmap · 試験・語学の目標
+### Examination and language goals · 試験・語学の目標
 
 **Direction / 分野** · **Current goal / 目標**
 
@@ -687,9 +685,6 @@ These are professional-development goals. Examination categories and requirement
 
 ## Japanese profile / 日本語プロフィール
 
-<details>
-<summary><strong>日本語 / プロフィール</strong></summary>
-
 フィリピンで約13年間、建設プロジェクト管理に従事し、資材、人員、機材、現場業務の調整に携わってきました。この経験から、業務上の課題を個別の作業としてだけでなく、供給状況、準備状況、着手前の確認事項が相互に関わる問題として捉えています。
 
 現在は日本を拠点に、University of the East（マニラ）のETEEAP課程で情報技術の学士号取得に取り組み、実装と独立研究を通じてソフトウェア、データ、サイバーセキュリティの技能を高めています。大学で4年間学んだ土木工学の基礎が、この分野転換を支えています。
@@ -697,8 +692,6 @@ These are professional-development goals. Examination categories and requirement
 研究の中心は**建設・物流DX**です。現場の制約をシステム要件、信頼できるデータ、責任の所在が明確な業務フローへと整理します。PHP・MySQL・SQLをシステム開発の軸に、Python、自動化、シミュレーションへ学習と研究を広げています。
 
 **研究課題：** 人の判断と現場の安全を尊重しながら、資材供給、搬入、作業着手条件の連携を情報システムでどう改善できるか。
-
-</details>
 
 <a id="connect"></a>
 
@@ -717,8 +710,7 @@ I bring field experience, attention to operational dependencies and a commitment
 
 **[Connect on LinkedIn / LinkedInで連絡する](https://www.linkedin.com/in/jericho-o-52b9b434a/)** · **[Explore GitHub / GitHubを見る](https://github.com/aomori753)**
 
-
-<p>Profile reviewed: 24 September 2026 · English / 日本語 · <a href="docs/profile-maintenance.md">Profile maintenance</a></p>
+<p>Profile reviewed: 24 September 2026 · English / 日本語</p>
 
 <details>
 <summary>Brand signature / ブランド表記</summary>
