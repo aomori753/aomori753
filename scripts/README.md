@@ -16,7 +16,7 @@ Use `node scripts/check-profile.mjs --help` for command usage. A successful chec
 
 ## What it checks
 
-- The explicit public file list, including nonignored untracked files; links cannot target unpublished files or leave the repository.
+- The explicit public file list, including nonignored untracked files; known internal maintenance paths are rejected if tracked, and links cannot target unpublished files or leave the repository.
 - Markdown navigation, disclosure structure, left-aligned native prose, local image sources and supported HTML.
 - The published profile's undated professional direction, Sentrivela name and FieldOps status, concept and private-source labels. FieldOps cannot advertise a public source repository.
 - SVG dimensions, accessible descriptions and local resources; PNG structure and metadata restrictions.

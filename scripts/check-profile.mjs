@@ -22,6 +22,20 @@ export const PUBLIC_FILES = Object.freeze([
   ".github/workflows/profile-check.yml",
 ]);
 const allowed = new Set(PUBLIC_FILES);
+const internalMaintenanceFiles = new Set([
+  "AGENTS.md",
+  "README_REBRAND_V2.md",
+  "docs/profile-sync.json",
+]);
+const internalMaintenanceDirectories = [
+  ".private/", ".preview/", ".rebrand-local/", "change-records/",
+  "docs-private/", "docs/rebrand/", "internal/", "private/",
+];
+const isInternalMaintenancePath = (file) => {
+  const normalized = file.replaceAll("\\", "/").replace(/^\.\/+/, "");
+  return internalMaintenanceFiles.has(normalized)
+    || internalMaintenanceDirectories.some((directory) => normalized.startsWith(directory));
+};
 const requiredAnchors = [
   "profile", "fieldops", "projects", "toolkit", "development", "design", "vision", "integrity", "connect",
 ];
@@ -56,6 +70,10 @@ export function checkPublicFiles(entries) {
     if (!entries.has(file)) fail(file, "Required public file is missing or ignored.");
   }
   for (const [file, contents] of entries) {
+    if (isInternalMaintenancePath(file)) {
+      fail(file, "Internal maintenance files must remain untracked and outside the public repository.");
+      continue;
+    }
     if (!allowed.has(file)) {
       fail(file, "Unexpected publication path; review and explicitly approve or exclude this file.");
       continue;

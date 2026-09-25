@@ -57,6 +57,14 @@ test("unexpected paths and missing required files fail", () => {
   hasProblem(problems, /Required public file is missing/);
 });
 
+test("internal maintenance files are rejected as publication paths", () => {
+  for (const file of ["AGENTS.md", "docs/rebrand/review.md", ".rebrand-local/report.json"]) {
+    const files = fixture();
+    files.set(file, "Local-only review material.");
+    hasProblem(checkPublicFiles(files), /Internal maintenance files must remain untracked/);
+  }
+});
+
 test("published README navigation anchors are required", () => {
   for (const anchor of ["connect", "fieldops"]) {
     const files = fixture();
